@@ -2,7 +2,7 @@
 ##_How Improv Prepared Me for Coding_
 ![Two Mindsets](http://www.brainpickings.org/wp-content/uploads/2014/01/mindset.jpg)
 
-A person can move through life with one of two mindsets, a fixed mindset or a growth mindset.  A fixed mindset is self-conscious and fear driven.  The desire to prove worth and ability tends to create a situation that affirms rather than relieves the fear of failure.  A person with a fixed mindset avoids challenges and thus cannot succeed or even improve.  The fixed minded individual compares his or her own abilities to those around them, takes constructive feedback as belittling criticism, and does not believe the effort to improve is worth the effort it takes to get there or the risk of failure involved in trying so they often give up before they ever start.
+A person can move through life with one of two mindsets; <a href=http://mindsetonline.com/whatisit/about/> fixed or growth.</a>  A fixed mindset is self-conscious and fear driven.  The desire to prove worth and ability tends to create a situation that affirms rather than relieves the fear of failure.  A person with a fixed mindset avoids challenges and thus cannot succeed or even improve.  The fixed minded individual compares his or her own abilities to those around them, takes constructive feedback as belittling criticism, and does not believe the effort to improve is worth the effort it takes to get there or the risk of failure involved in trying so they often give up before they ever start.
 
 A growth mindset, on the other hand, embraces the possibility of "what if".  Inspired and encouraged by the success and feedback of others, these people focus on the outward potential rather than the inward deficiencies.  They move hopefully into the unknown expecting to fail, to learn, and to grow.
 
@@ -32,7 +32,7 @@ My experience with improv has revealed the potential in me for either mindset.  
 
 ###[Fixed vs Growth] (http://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
 * “If you imagine less, less will be what you undoubtedly deserve...Do what you love, and don’t stop until you get what you love. Work as hard as you can, imagine immensities...” Debbie Millman.
-* “fixed mindset” assumes that our character, intelligence, and creative ability are static givens which we can’t change in any meaningful way, and success is the affirmation of that inherent intelligence, an assessment of how those givens measure up against an equally fixed standard; striving for success and avoiding failure at all costs become a way of maintaining the sense of being smart or skilled. 
+* “fixed mindset” assumes that our character, intelligence, and creative ability are static givens which we can’t change in any meaningful way, and success is the affirmation of that inherent intelligence, an assessment of how those givens measure up against an equally fixed standard; striving for success and avoiding failure at all costs become a way of maintaining the sense of being smart or skilled.
 * “growth mindset,” on the other hand, thrives on challenge and sees failure not as evidence of unintelligence but as a heartening springboard for growth and for stretching our existing abilities.
 * Growth mindset creates a passion for learning rather than a hunger for approval.
 
