@@ -6,6 +6,7 @@ Journal, Week 1
 <ol>
   <li>**Values**</li>
   <li>**Types**
+
     <ol>
       <li>_undefined_</li>
       <li>_Primitive Types_
@@ -70,4 +71,17 @@ Journal, Week 1
     </ol>
   </li>
 </ol>
-_-Note: I find it helpful to have a framework of the overall picture so that I don't get (as) lost along the way.  This list is my attempt to organize the landscape that we are traversing. I know I don't know all of this yet, and some of this probably isn't categorized accurately, but I have a map to start from.  This cartography will be drawn as I walk across the landscape, like discovering the map on Old School NES The Legend of Zelda._
+
+
+I find it helpful to have a framework of the overall picture so that I don't get (as) lost along the way.  This list is my attempt to organize the landscape that we are traversing. I know I don't know all of this yet, and some of this probably isn't categorized accurately, but I have a map to start from.  This cartography will be drawn as I walk across the landscape, like discovering the map on Old School NES The Legend of Zelda._
+
+### The Quest to Conquer FEE
+As I began this quest to the kingdom of Front-End Engineering, we were equipped with the most basic tool for the journey.  This tool is the idea of **_Values_**.  Everything in the world of JavaScript has a value, whether it's `1,000,000,000` or `null`, `undefined` or `Infinity`, a function, object or model.
+
+With the wisdom of knowing that all things have value, I begin to learn and practice utilizing some of the basic tools for extracting value from this strange and magical land.  These tools are called **_Types_**.  As any beginner, I began with the most basic, primitive types: null, Boolean, Number, and String.
+
+After gaining some comfort with these tools, I began the long process of putting these tools (along with a few others) to use in more complex ways.  My arsenal was growing in size and strength.  I needed some ways to collect my values and more effectively deploy my types.  And so I began to learn about Containers like Objects and Arrays.  Now there are ways to store values and draw from them in logical ways.  These dictionaries and lists will prove useful down the road.
+
+**_Functions_** were the next most important trick to learn.  Functions can do amazing things when combined with the power of values and types.  By defining and then invoking functions, I began to learn how to master Control Structure.  The Rule of Sequential Operation was a guide to altering control flow with loops, functions, conditions, and operator precedence.  It seemed as if I might one day be unstoppable.
+
+I can only see so far ahead on this journey, but I know **_Literals_** are somewhere up ahead.  I can't worry about that right now, because I am trying to navigate my next steps with DOM as the landscape opens up into browser windows, `index.html`s and other new and exciting adventures.
