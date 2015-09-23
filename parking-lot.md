@@ -1,11 +1,13 @@
 Parking Lot Ideas:
 
-
-Time Management
--Difficulty
--Complexity
--Risk
--pomodoro
+Scientific Method-
+1) Formulate Hypothesis
+2) Develop Testable Predictions
+3) Gather Data to Test Predictions
+4) Develop General Theories
+5) Make Observations
+6) Think of Interesting Questions
+7) Rinse and Repeat (Go back to 1)
 
 Grid Based Design
 
@@ -16,15 +18,3 @@ Grid Based Design
     -Mobile first
     -Tablet first
     -Desktop first
-
-
-CSS is like Calvin Ball
-  -The rules seem to be made up as we go along.
-
-  -3 Rules of Cascade
-    * Inheritance
-    * Specificity
-    * Order
-  -Selectors
-  -Properties
-  -BOXES!
