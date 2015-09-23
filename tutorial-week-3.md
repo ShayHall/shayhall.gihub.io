@@ -73,4 +73,12 @@ Rendering Complete, saving .css file...
 Wrote CSS to /Users/YOURNAME/Desktop/YOURPATH/TOYOUR/CSSFILE.css
 ```
 
-Happy Sassing!
+Happy Sassing!  
+
+_Here are some links for more info on:_
+
+* [Sass](http://sass-lang.com/)
+
+* [node-sass](https://www.npmjs.com/package/node-sass)
+
+* [Command line](http://cli.learncodethehardway.org/book/)
