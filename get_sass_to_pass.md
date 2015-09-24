@@ -1,27 +1,28 @@
-# Can't get that Sass to pass
+# _Can't get that Sass to pass?_
+![Sass](http://sass-lang.com/assets/img/illustrations/glasses-2087d741.svg)
 
-So, you've refactored your CSS to Sass by extracting all your descendent selectors and now you're trying to convert your Sass files back into CSS.  But you're having a couple problems.  Let me see if I can help.
+**So, you've refactored your CSS to Sass** by extracting all your descendent selectors and now you're trying to convert your Sass files back into CSS.  But you're having a couple problems.  Let me see if I can help.
 
 First you try typing `node-sass --output-style expanded --output css/ scss/*.scss` into your terminal command line, but you see that only one of the four files you have is being affected.
 
 Why don't you try typing one file at a time?  `node-sass --output-style expanded --output css/ scss/JUST ONE FILE.scss`.
 
-OH! It worked!?!  Congratulations.  Do you know why it worked?  If not, you probably don't know what those magic words you typed mean.
+OH! It worked!?!  Congratulations.  _Do you know why it worked?_  (That's an important question to ask yourself.)  If you don't know why it worked, you probably don't know what those magic words you typed mean.
 
-`node-sass`is a library that allows you to compile your `.scss` files into `.css` files
+`node-sass` -is a library that allows you to compile your `.scss` files into `.css` files
 
-`--output-style expanded` tells us how the freshly formed .css file will be represented.  There are four options `compact`, `nested`, `compressed`, and `expanded`.  Your choice of `expanded` means you want your CSS to be easily readable by mere humans.
+`--output-style expanded` -tells us how the freshly formed .css file will be represented.  There are four options `compact`, `nested`, `compressed`, and `expanded`.  Your choice of `expanded` means you want your CSS to be easily readable by mere humans.
 
-`css/` tells your computer where to put the sass-less CSS.
+`css/`-tells your computer where to put the sass-less CSS.
 
-`scss/FILENAME.scss` tells the compute where to get that sassy code.
+`scss/FILENAME.scss` -tells the compute where to get that sassy code.
 
-when you tried `css/ scss/*.scss` your machine took the first .scss file it found, turned it back into vanilla CSS and thought it was time to go home.  Understand what and why now?
+When you tried `css/ scss/*.scss`, your machine took the first `.scss` file it found, turned it back into vanilla CSS and thought it was time to go home.  Do you understand what and why now?
 
 
 Now, try the next one...
 
-Wait a minute, it's not working now?  Did your terminal get all angry and turn the words red?  (READ THOSE WORDS.  They are there to help you...  Some.)
+Wait a minute, it's not working _again_?  Did your terminal get all angry and turn the words red?  (READ THOSE WORDS.  They are there to help you...  Some.)
 Here's an example of what your machine might say to you:
 ```
 {
