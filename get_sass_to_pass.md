@@ -1,6 +1,7 @@
 # _Can't get that Sass to pass?_
 ![Sass](http://sass-lang.com/assets/img/illustrations/glasses-2087d741.svg)
 
+
 **So, you've refactored your CSS to Sass** by extracting all your descendent selectors and now you're trying to convert your Sass files back into CSS.  But you're having a couple problems.  Let me see if I can help.
 
 First you try typing `node-sass --output-style expanded --output css/ scss/*.scss` into your terminal command line, but you see that only one of the four files you have is being affected.
