@@ -1,18 +1,11 @@
 # The Moment Before I Hit the Button
 
-I sigh.
+![Refresh Button](https://pixabay.com/static/uploads/photo/2013/07/12/16/35/redo-151210_640.png)
+I sigh, lean back, look over what I just wrote.
 
-I lean back.
+I sigh again, louder this time.  
 
-I look over what I just wrote.
-
-I sigh again, louder.
-
-I rub my forehead.
-
-I tap my foot.
-
-I lift my hand to refresh the page.
+I rub my forehead, tap my foot, lift my hand to refresh the page.
 
 And I think...
 > Will it work?  Did I do it?  Have I solved the puzzle?  Am I done?  Can I go to sleep?
@@ -21,8 +14,8 @@ These are just a few of the many questions that run explicitly through my mind a
 
 I can sit for hours, trying things that seem reasonable, attempting various combinations of `.` `;` `()` `{}` `[]` that begin to suspiciously look more and more like cartoon cussing. `&$!%`  
 
-Each time I think I've made progress, this is what my mind and body endure.  It's one continuous clichèd roller coater metaphor.  There is no real data to back this up, but the failure to success rate is about 1,999,999,999 to 1.  Each failure weighs on me, empowering that voice that says I cannot do this to shout louder.
+Each time I think I've made progress, this is what my mind and body endure.  It's one continuous clichèd roller coater metaphor.  There is no real data to back this up, but the failure to success rate is about `1,999,999,999 to 1`.  Each failure weighs on me, empowering that voice that says I cannot do this to shout louder.
 
 And then it happens.
 
-What I wanted to work does exactly what I want it to (or at least some near approximation of it)!  And the joy it brings trumps all 1,999,999,999 failures it took to get there.
+What I wanted to work does exactly what I want it to (or at least some near approximation of it)!  And the joy it brings trumps all `1,999,999,999` failures it took to get there.
