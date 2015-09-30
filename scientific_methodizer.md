@@ -32,3 +32,7 @@ Sticking to the scientific method for the majority of your coding process will s
 - Ask yourself, "What one thing do I think will bring me closer to the answer?"
 
 1. Rinse and Repeat (Go back to 1)
+
+-
+-
+-
