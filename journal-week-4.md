@@ -18,4 +18,4 @@ Each time I think I've made progress, this is what my mind and body endure.  It'
 
 And then it happens.
 
-What I wanted to work does exactly what I want it to (or at least some near approximation of it)!  And the joy it brings trumps all `1,999,999,999` failures it took to get there.
+What I wanted to work does exactly what I want it to (or at least some near approximation of it)!  And the joy it brings trumps all `1,999,999,999` failures it took to get there...  Then, on to the next problem...  'Sigh'.
