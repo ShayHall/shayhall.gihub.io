@@ -1,11 +1,13 @@
 # [Scientific Method](https://en.wikipedia.org/wiki/Scientific_method)
 #### _Replacing the madness of your method with some science._
 
+#### Intro
 
-Sticking to the scientific method for the majority of your coding process will save time, energy, confusion, and quite possibly your sanity. Early in your coding life, everything is new.  This means the world of computers is dark and scary, but it also means there are lots of lightbulbs waiting to be turned on.  The **scientific method** will help ensure there are more bright bulbs and goals met rather than just confused shrugs and targets hit and you won't end up like this guy:
+ Early in your coding life, everything is new.  This means the world of computers is dark and scary, but it also means there are lots of lightbulbs waiting to be turned on.  The **scientific method** will help ensure there are more bright bulbs and goals met rather than just confused shrugs and targets hit and you won't end up like this guy:
 
 ![Confused Coder](http://i2.wp.com/memecollection.net/wp-content/uploads/2013/05/my-code-doesnt-work.jpg?w=900)
 
+#### The Process
 
 1. Formulate Hypothesis
 
@@ -39,5 +41,6 @@ Sticking to the scientific method for the majority of your coding process will s
 
     - Ask yourself, "What one thing do I think will bring me closer to the answer?"
 
+#### Conclusion
 
-If you follow these simple steps and ask yourself these simple questions, your process for discovery will become clearer and more productive.  Your successes will be earned and understood, and your mistakes will be valuable learning opportunities.  
+If you follow these simple steps and ask yourself these simple questions, your process for discovery will become clearer and more productive.  Your successes will be earned and understood, and your mistakes will be valuable learning opportunities.  Sticking to the **scientific method** for the majority of your coding process will save time, energy, confusion, and quite possibly your sanity.
