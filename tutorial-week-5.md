@@ -1,14 +1,30 @@
 # Finding your path
 
-In this tutorial, I will help you understand the importance of knowing where you are in your directory and how that can be utilized for `npm scripts` and navigating the command line without leaving homebase.
+In this tutorial, I will help you understand the importance of knowing where you are in your directory and how that can be utilized for `npm scripts`, `bower scripts`, installs and navigating the command line without leaving home base.
 
 
--Starting from the beginning.
+- Starting from the beginning.
 
--Moving forward from where you are.
+Right now my terminal shows this:
+```
+cathyhall at MacBook-Air in ~/Desktop/TIY/shayhall.github.io (journal-week-5)
+$
+```
 
--Stepping backward.
+Your terminal will have something similar.  Perhaps you have navigated all the way back to the beginning and so your terminal looks like this:
+```
+cathyhall at MacBook-Air in ~
+$
+```
+(That was a hint for you to open your terminal and **look at it**.  You ask, "What do those words and symbols mean and why does it matter?"
 
--`npm scripts`
+In my case `cathyhall` is the owner.  (I stole my computer from my wife).
+`MacBook-Air` is the super creative name of my computer.
 
--Master and Command-er
+`~`
+
+`/`
+
+`Desktop/`
+
+`(journal-week-5)`
