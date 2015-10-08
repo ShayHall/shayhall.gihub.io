@@ -1,1 +1,15 @@
-
+article {
+  width:25%;
+  position:relative;
+  img {
+    width: 350px;
+    border-radius: 50%
+  }
+  button {
+    background-color: #432059;
+    border-radius: 5px;
+    padding: 20px 10px;
+    position: absolute;
+    right: 5px;
+  }
+}
