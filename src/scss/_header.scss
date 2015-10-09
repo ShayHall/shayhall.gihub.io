@@ -1,0 +1,24 @@
+header {
+  box-sizing: border-box;
+  background-color: lightgray;
+  padding: 1em 5%;
+  margin-bottom: 15ex;
+  display: block;
+  h1.blogname {
+    font-size: 3em;
+    display: inline-block;
+  }
+  .monkey-icon {
+    width: 6em;
+    margin-bottom: 2em;
+  }
+  nav {
+    display: inline-block;
+    margin-left: 50%;
+   button {
+      padding: 1.5ex 1em;
+      border-radius: 10px;
+      background-color: gray;
+    }
+  }
+}
