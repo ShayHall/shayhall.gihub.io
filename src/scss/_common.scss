@@ -1,23 +1,29 @@
 .container {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto;
 }
 
+button {
+  padding: 1.5ex 1em;
+  border-radius: 10px;
+  background-color: gray;
+}
 
-
-article {
-  width:25%;
-  position:relative;
-  img {
-    width: 350px;
-    border-radius: 50%
-  }
-  button {
-    background-color: #432059;
-    border-radius: 5px;
-    padding: 20px 10px;
-    position: absolute;
-    right: 5px;
-
+section {
+  width: 66.66%;
+  margin: 0 auto;
+  article {
+    box-sizing: border-box;
+    width:40%;
+    margin: 1%;
+    padding: 2em;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: inline-block;
+    img {
+      width: 75%;
+      border-radius: 100%;
+      margin:0 10%;
+    }
   }
 }
