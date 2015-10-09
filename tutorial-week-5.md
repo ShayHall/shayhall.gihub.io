@@ -1,10 +1,9 @@
 # Finding your path
 
-In this tutorial, I will help you understand the importance of knowing where you are in your directory, how to navigate through your relative paths, and how that can be utilized for `npm scripts`, `bower scripts`, installs and navigating the command line without leaving home base.
 
+### Part 1: Getting your bearings
 
-### Getting your bearings
-To begin with we will start from the beginning.  Right now my terminal shows this:
+In this tutorial, I will help you understand the importance of knowing where you are in your directory. To begin with we will start from the beginning.  Right now my terminal shows this:
 ```
 cathyhall at MacBook-Air in ~/Desktop/TIY/shayhall.github.io (journal-week-5)
 $
@@ -33,10 +32,4 @@ Each person's environment is set up a little differently depending on if you hav
 
 `(journal-week-5)`- This tells me what branch of my repository I am on.
 
-### Navigating
-
- navigating the command line without leaving home base.
-
-### The Path of least resistance
-
-how that can be utilized for `npm scripts`, `bower scripts`, installs.
+Now that you have a better idea of where you are, you can start exploring how to get to where you're going.  In (potential) future tutorials, I will go a little deeper with navigating to different locations and creating relative paths between files.
