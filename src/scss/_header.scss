@@ -12,9 +12,14 @@ header {
     width: 6em;
     margin-bottom: 2em;
   }
+  div {
+    position: relative;
+  }
   nav {
     display: inline-block;
-    margin-left: 50%;
+    position:absolute;
+    bottom: 2em;
+    right: 0;
    button {
       padding: 1.5ex 1em;
       border-radius: 10px;
