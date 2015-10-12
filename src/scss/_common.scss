@@ -1,11 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
-
-}
-.container {
-  box-sizing: border-box;
-  margin: 0 auto;
-  width: 100%;
+  background-color: lighten(gray, 20%);
 }
 
 button {
@@ -14,21 +9,23 @@ button {
   background-color: lightgray;
 }
 
-section {
-  width: 100% * (2/3);
-  margin: 0 auto;
+section.feature article {
+  background-color: lightgray;
+  border-radius: 10px;
+  img {
+    width: 75%;
+    border-radius: 100%;
+    margin:0 10%;
+  } //.feature article img
+} //section.feature article
+
+aside.sidebar {
+  background-color: gray;
   article {
-    box-sizing: border-box;
-    width:40%;
-    margin: 1%;
-    padding: 2em;
     background-color: lightgray;
-    border-radius: 10px;
-    display: inline-block;
-    img {
-      width: 75%;
-      border-radius: 100%;
-      margin:0 10%;
-    }
-  }
+  } //Aside Article
+} //Aside
+
+footer {
+  background-color: darkgray;
 }

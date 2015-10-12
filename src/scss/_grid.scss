@@ -1,0 +1,57 @@
+main.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+} //main.container
+
+
+header {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1em 5%;
+  margin-bottom: 15ex;
+  h1.blogname {
+    display: inline-block;
+  }
+  div {
+    position: relative;
+  }
+  nav {
+    display: inline-block;
+    margin-left: 50%;
+    position:absolute;
+    bottom: 2em;
+    right: 0;
+  } // Nav
+} // Header
+
+section.feature {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 0 auto;
+  article {
+    box-sizing: border-box;
+    width:100%;
+    margin: 10px auto;
+    padding: 2em;
+    display: inline-block;
+  } //.feature article
+} //section.feature
+
+aside.sidebar {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 0 auto;
+  article {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+  } //Aside Article
+} //Aside
+
+footer {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;  
+} // Footer
