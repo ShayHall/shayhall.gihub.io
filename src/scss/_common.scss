@@ -1,16 +1,21 @@
+body {
+  font-family: 'Lato', sans-serif;
+
+}
 .container {
   box-sizing: border-box;
   margin: 0 auto;
+  width: 100%;
 }
 
 button {
   padding: 1.5ex 1em;
   border-radius: 10px;
-  background-color: gray;
+  background-color: lightgray;
 }
 
 section {
-  width: 66.66%;
+  width: 100% * (2/3);
   margin: 0 auto;
   article {
     box-sizing: border-box;
