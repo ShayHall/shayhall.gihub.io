@@ -1,1 +1,59 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: lighten(gray, 20%);
+}
 
+button {
+  padding: 1.5ex 1em;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+
+section.feature article {
+  background-color: lightgray;
+  border-radius: 10px;
+
+  img {
+    width: 60%;
+    border-radius: 100%;
+    margin:0 20%;
+  } //.feature article img
+  h2 {
+    text-align: center;
+    font-weight: 500;
+  }
+  .subtitle {
+    color: lighten(black, 25%);
+    text-align: center;
+    font-weight: 200;
+  }
+  div.blog-content {
+  height: 260px;
+  overflow: hidden;
+    p.blog-content {
+      border-top: 1px solid lighten(black, 45%);
+      font-weight: 100;
+      padding-top: 20px;
+    }
+  }
+  button {
+    display: block;
+    float: right;
+    margin-top: 10px;
+    padding: .8ex .8em;
+    border-radius: 10px;
+    background-color: lighten(black, 45%);
+    color: darken(white, 10%);
+  }
+} //section.feature article
+
+aside.sidebar {
+  background-color: gray;
+  article {
+    background-color: lightgray;
+  } //Aside Article
+} //Aside
+
+footer {
+  background-color: darkgray;
+}

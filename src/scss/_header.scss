@@ -1,0 +1,56 @@
+header {
+  background-color: darkgray;
+  position: relative;
+  h1.blogname {
+    display: inline-block;
+    font-size: 2.2em;
+    color: black;
+    margin-left: 10%;
+    font-weight: 100;
+  }
+  .monkey-icon {
+    display: inline-block;
+    width: 5em;
+    margin-left: -1.5em;
+    margin-bottom: -.9em;
+  }
+  a {
+    text-decoration: none;
+}
+.hamburger::before {
+  content: '\2261';
+  color: darken(white, 10%);
+  font-size: 4em;
+  text-decoration: none;
+  position: absolute;
+  display:block;
+  top: 0;
+  right: 10%;
+}
+
+
+  nav.slider {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0  auto;
+    display: none;
+    ul {
+      background-color: darken(darkgray, 10%);
+      width: 80%;
+      margin: 15px auto;
+      position:relative;
+      display: block;
+      border-radius: 10px;
+      li {
+        text-decoration: none;
+        padding-right: 25px;
+        display:block;
+        text-align: right;
+        a {
+          color: darken(white, 10%);
+          font-size: 1.4em;
+        }
+      }
+    }
+  } // Nav
+} // Header
