@@ -18,3 +18,13 @@ Grid Based Design
     -Mobile first
     -Tablet first
     -Desktop first
+
+
+In last week's tutorial, I showed you how to understand the importance of knowing where you are in your directory. This week we will look at how to navigate through your relative paths, and how that can be utilized for `npm scripts`, `bower scripts`, installs and navigating the command line without leaving home base.
+### Navigating
+
+ navigating the command line without leaving home base.
+
+### The Path of least resistance
+
+how that can be utilized for `npm scripts`, `bower scripts`, installs.
