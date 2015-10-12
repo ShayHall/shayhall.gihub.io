@@ -1,0 +1,14 @@
+@media (min-width: 601px) {
+section.feature {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  article {
+    box-sizing: border-box;
+    width:30%;
+    // margin: 10px 0;
+    // padding: 1em;
+    display: inline-block;
+  } //.feature article
+} //section.feature
+}
