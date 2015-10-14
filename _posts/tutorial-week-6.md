@@ -1,10 +1,9 @@
 # Finding your path
 
-In last week's tutorial, I showed you how to understand the importance of knowing where you are in your directory. This week we will look at how to navigate through your paths.  
+### Part 2: Navigating
+In last week's tutorial, you learned the importance of knowing where you are in your directory. This week we will look at how to navigate through your paths.  
 
 Next week, in the final installment, I will show you how your new found knowledge can be utilized properly with `npm scripts`, `bower scripts`, and installs so you can make the most of your coding adventure.
-
-### Part 2: Navigating
 
  It's easy for a novice dev to get lost in the many twists and turns, nooks and crannies, and hallways and corridors of the command line.  One way to help make sure you're on the right "path" is to root yourself on the highest level of the documents you will be using.  navigating the command line without leaving home base.  
 
@@ -61,4 +60,4 @@ Let's say you wanted to take a look at `typing-monkey.png` by opening that file.
 
 Now, if you were to navigate to the `scss` directory for some reason, but wanted to open the `main.css` file to make sure your changes are being registered properly, you could back up a directory by typing `../css/main.css`.  This will back you out of the `scss` directory and then step you into the `css` directory where you can grab the `main.css` file.
 
-- Conclusion: Now you know how to find your way up and down trees, over paths and through directories.  Next week, we'll explore more advanced ways to put this skill into practice.
+Now you know how to find your way up and down trees, over paths and through directories.  Next week, we'll explore more advanced ways to put this skill into practice.
