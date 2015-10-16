@@ -58,6 +58,6 @@ Now that you have a map to follow, let's look at how to get to where you're goin
 
 Let's say you wanted to take a look at `typing-monkey.png` by opening that file.  From _where you are_ you could type `open src/img/typing-monkey.png`  To edit your `main.scss` in Atom, you'd type `src/scss/main.scss`.  These are the paths you would use to find what you want.
 
-Now, if you were to navigate to the `scss` directory for some reason, but wanted to open the `main.css` file to make sure your changes are being registered properly, you could back up a directory by typing `../css/main.css`.  This will back you out of the `scss` directory and then step you into the `css` directory where you can grab the `main.css` file.
+Now, if you were to navigate to the `scss` directory to open your `main.scss` file(which I'm trying to teach you to not have to do), but you wanted to open the `main.css` file to make sure your changes are being registered properly after running `npm run sass`, you open the file by typing `atom ../css/main.css`.  This will back out of the `scss` directory and then step into the `css` directory where Atom can grab the `main.css` file.
 
 Now you know how to find your way up and down trees, over paths and through directories.  Next week, we'll explore more advanced ways to put this skill into practice.
