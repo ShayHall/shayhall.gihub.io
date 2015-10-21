@@ -1,13 +1,5 @@
 Parking Lot Ideas:
 
-Scientific Method-
-1) Formulate Hypothesis
-2) Develop Testable Predictions
-3) Gather Data to Test Predictions
-4) Develop General Theories
-5) Make Observations
-6) Think of Interesting Questions
-7) Rinse and Repeat (Go back to 1)
 
 Grid Based Design
 
@@ -20,8 +12,6 @@ Grid Based Design
     -Desktop first
 
 
+[Multi-Part Series on Data Structures in JavaScript](http://code.tutsplus.com/series/data-structures-in-javascript--cms-772)
 
-
-### Part 3: The Path of least resistance
-
-how that can be utilized for `npm scripts`, `bower scripts`, installs.
+http://code.tutsplus.com/series/creating-a-web-app-from-scratch-using-angularjs-and-firebase--cms-717
