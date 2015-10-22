@@ -1,1 +1,41 @@
-
+header {
+  height: 12.5ex;
+  h1.blogname {
+    left: 1.2em;
+    font-size: 2.5em;
+  }
+  .monkey-icon {
+    left: 13.3em;
+    top: 4ex;
+    width: 4em;
+  }
+  nav.slider {
+    box-sizing: border-box;
+    margin: 2.5ex 5%;
+    a {
+      font-size: 1em;
+    }
+  } // Nav
+}
+footer {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  margin: 3ex auto 0;
+  display:inline-block;
+  background-color: darkgray;
+  padding: 2ex 1em;
+  font-size: .8em;
+  .contact {
+    margin-left: 5%;
+    float: left;
+    ul {
+      position: absolute;
+      right: 3em;
+      top: 2ex;
+      list-style-type: none;
+      padding-left: 0;
+      text-align: right;
+    }
+  }
+}//.footer
