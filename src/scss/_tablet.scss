@@ -10,4 +10,13 @@ section.feature {
     display: inline-block;
   } //.feature article
 } //section.feature
+  .container {
+    .bottom {
+      .contact {
+        box-sizing: border-box;
+        width: 100% * (1/3);
+        float: right;
+      }
+    }
+  }
 }
