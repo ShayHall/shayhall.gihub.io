@@ -1,21 +1,23 @@
 main.container {
   box-sizing: border-box;
   margin: 0 auto;
-  width: 100%;
+  width: 90%;
 } //main.container
 
 header {
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0 auto 5ex;
   width: 100%;
-  h1.blogname {
+  padding-bottom: 3ex;
+  .blogname {
     display: inline-block;
+    // width: 15%;
   }
 } // Header
 
 section.feature {
   box-sizing: border-box;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   article {
     box-sizing: border-box;
