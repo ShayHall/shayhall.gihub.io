@@ -21,7 +21,6 @@ header {
 }
 
 header {
-  background-color: darkgray;
   position: relative;
   h1.blogname {
     position:absolute;
@@ -44,7 +43,6 @@ section.feature {
     padding: 1em;
     display: block;
     float: left;
-    background-color: teal;
   } //.feature article
 } //section.feature
 }//header
@@ -55,7 +53,6 @@ section.feature {
     width: 100%;
     margin: 3ex auto 0;
     display:inline-block;
-    background-color: darkgray;
     padding: 2ex 2em;
     font-size: .8em;
     .contact {

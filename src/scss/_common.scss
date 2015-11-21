@@ -1,16 +1,13 @@
 body {
   font-family: 'Lato', sans-serif;
-  background-color: lighten(gray, 20%);
 }
 
 button {
   padding: 1.5ex 1em;
   border-radius: 10px;
-  background-color: lightgray;
 }
 
 section.feature article {
-  background-color: lightgray;
   border-radius: 2px;
   box-shadow: 1px 1px 2px gray;
   margin-bottom: 4ex;
@@ -47,10 +44,3 @@ section.feature article {
     color: darken(white, 10%);
   }
 } //section.feature article
-
-aside.sidebar {
-  background-color: gray;
-  article {
-    background-color: lightgray;
-  } //Aside Article
-} //Aside
