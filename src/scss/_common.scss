@@ -191,14 +191,14 @@ body {
       background-color: $Grinch;
       border-right: 2px solid $Grinch;
       img {
-        width: 10em;
+        box-sizing: border-box;
+        width: 50%;
         height: 20ex;
         border-radius: 50%;
-        margin: 0 2em;
+        margin: 0 25%;
         border: 2px solid #fff;
       }
       h3 {
-        width: 10em;
         text-align: center;
         color: #fff;
         font-weight: 100;
@@ -206,7 +206,6 @@ body {
         line-height: 0;
       }
       h4 {
-        width: 15em;
         text-align: center;
         color: #fff;
         font-weight: 100;
@@ -275,14 +274,14 @@ body {
       padding: 3ex 2em;
       background-color: $Grinch;
       img {
-        width: 10em;
+        box-sizing: border-box;
+        width: 50%;
         height: 20ex;
         border-radius: 50%;
-        margin: 0 2.5em;
+        margin: 0 25%;
         border: 2px solid #fff;
       }
       h3 {
-        width: 10em;
         text-align: center;
         color: #fff;
         background-color: #fff;
@@ -291,7 +290,6 @@ body {
         line-height: 0;
       }
       h4 {
-        width: 15em;
         text-align: center;
         color: #fff;
         font-weight: 100;
