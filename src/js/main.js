@@ -1,3 +1,5 @@
-$(".hamburger").click(function () {
-    $('.slider').slideToggle();
-}); //TODO: Write own CSS animation or use animate.css or alternative
+// $(function(){
+//  window.setInterval(function(){
+//    $('.name').toggleClass('gone');
+//  }, 2000);
+// });

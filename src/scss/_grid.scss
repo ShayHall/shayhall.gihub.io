@@ -1,46 +1,15 @@
-main.container {
-  box-sizing: border-box;
-  margin: 0 auto;
-  width: 90%;
-} //main.container
-
-header {
-  box-sizing: border-box;
-  margin: 0 auto 5ex;
-  width: 100%;
-  padding-bottom: 3ex;
-  .blogname {
-    display: inline-block;
-    // width: 15%;
-  }
-} // Header
-
-section.feature {
-  box-sizing: border-box;
-  width: 100%;
-  margin: 0 auto;
-  article {
-    box-sizing: border-box;
-    width:100%;
-    margin: 10px auto;
-    padding: 2em;
-    display: inline-block;
-  } //.feature article
-} //section.feature
-
-aside.sidebar {
-  box-sizing: border-box;
-  width: 100%;
-  margin: 0 auto;
-  article {
-    box-sizing: border-box;
-    width: 100%;
-    margin: 0 auto;
-  } //Aside Article
-} //Aside
-
-footer {
-  box-sizing: border-box;
-  margin: 0 auto;
-  width: 100%;
-} // Footer
+// for 3, 4, 6,  8 and 12
+@each $Y in 3, 4, 6, 8, 12 {
+  @for $X from 1 through $Y {
+    .col-#{$X}-#{$Y} {
+      width: 100% * ($X / $Y);
+      box-sizing: border-box;
+      display:block; float:left;
+    }
+    .pad-#{$X}-#{$Y} {
+      margin-left: 100% * ($X/$Y);
+      box-sizing: border-box;
+      display:block; float:left;
+    }
+  } // END @for 1...$Y
+} // END @each 6,8,12,16,18
