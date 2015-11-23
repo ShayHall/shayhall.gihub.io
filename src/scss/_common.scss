@@ -181,6 +181,7 @@ body {
       margin-bottom: 2px;
     }
     &:last-of-type {
+      height: 32.5ex;
       border-bottom: 2px solid $Grinch;
     }
     .heading {
@@ -192,21 +193,21 @@ body {
       border-right: 2px solid $Grinch;
       img {
         box-sizing: border-box;
-        width: 50%;
+        width: 20ex;
         height: 20ex;
         border-radius: 50%;
-        margin: 0 25%;
+        margin-left: 0;
         border: 2px solid #fff;
       }
       h3 {
-        text-align: center;
+        text-align: left;
         color: #fff;
         font-weight: 100;
         font-size: 1.5em;
         line-height: 0;
       }
       h4 {
-        text-align: center;
+        text-align: left;
         color: #fff;
         font-weight: 100;
         font-size: 1em;
@@ -275,14 +276,14 @@ body {
       background-color: $Grinch;
       img {
         box-sizing: border-box;
-        width: 50%;
+        width: 20ex;
         height: 20ex;
         border-radius: 50%;
-        margin: 0 25%;
+        margin-left: 0;
         border: 2px solid #fff;
       }
       h3 {
-        text-align: center;
+        text-align: left;
         color: #fff;
         background-color: #fff;
         font-weight: 100;
@@ -290,7 +291,7 @@ body {
         line-height: 0;
       }
       h4 {
-        text-align: center;
+        text-align: left;
         color: #fff;
         font-weight: 100;
         font-size: 1em;

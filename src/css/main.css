@@ -236,6 +236,7 @@ body {
       border-top: 2px solid #00A030;
       margin-bottom: 2px; }
     .portfolio .port-left:last-of-type {
+      height: 32.5ex;
       border-bottom: 2px solid #00A030; }
     .portfolio .port-left .heading {
       box-sizing: border-box;
@@ -246,19 +247,19 @@ body {
       border-right: 2px solid #00A030; }
       .portfolio .port-left .heading img {
         box-sizing: border-box;
-        width: 50%;
+        width: 20ex;
         height: 20ex;
         border-radius: 50%;
-        margin: 0 25%;
+        margin-left: 0;
         border: 2px solid #fff; }
       .portfolio .port-left .heading h3 {
-        text-align: center;
+        text-align: left;
         color: #fff;
         font-weight: 100;
         font-size: 1.5em;
         line-height: 0; }
       .portfolio .port-left .heading h4 {
-        text-align: center;
+        text-align: left;
         color: #fff;
         font-weight: 100;
         font-size: 1em;
@@ -314,20 +315,20 @@ body {
       background-color: #00A030; }
       .portfolio .port-right .heading img {
         box-sizing: border-box;
-        width: 50%;
+        width: 20ex;
         height: 20ex;
         border-radius: 50%;
-        margin: 0 25%;
+        margin-left: 0;
         border: 2px solid #fff; }
       .portfolio .port-right .heading h3 {
-        text-align: center;
+        text-align: left;
         color: #fff;
         background-color: #fff;
         font-weight: 100;
         font-size: 1.5em;
         line-height: 0; }
       .portfolio .port-right .heading h4 {
-        text-align: center;
+        text-align: left;
         color: #fff;
         font-weight: 100;
         font-size: 1em;
