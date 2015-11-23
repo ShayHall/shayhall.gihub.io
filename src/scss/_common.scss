@@ -1,25 +1,19 @@
+$Grinch: #00A030;
+
 body {
   font-family: 'Lato', sans-serif;
   position: relative;
 }
-  img {
-    width: 100px;
-    -webkit-transition: width .5s, height .5s, -webkit-transform 2s;
-    transition: width .5s, height .5s, transform 2s;
-    &:hover {
-      width: 105px;
-      -webkit-transition: width .5s, height .5s, -webkit-transform 2s;
-      transition: width .5s, height .5s, transform 2s;
-    }
-  }
+
 .container {
 }
+
 .headline {
   box-sizing: border-box;
-	background-color: #00A030;/*rgba(13, 6, 48, 1)*/
+	background-color: $Grinch;/*rgba(13, 6, 48, 1)*/
   height: 80ex;
   h1 {
-    background-color: #00A030;/*rgba(13, 6, 48, 1)*/
+    background-color: $Grinch;/*rgba(13, 6, 48, 1)*/
     text-align: center;
     color: #ffffff;
     font-weight: 100;
@@ -76,33 +70,256 @@ body {
   li {
     display: block;
     float: right;
-    margin-right: 3em;
+    margin-right: 2em;
     list-style: none;
     padding-left: 0;
     a {
       text-decoration: none;
       color: #00A030;/*rgba(13, 6, 48, 1)*/
       font-weight: 100;
-      padding: 2px;
+      padding: 0.5ex 0.5em;
       border: 1px solid #00A030;
       border-radius: 3px;
     }
   }
 }
 
-
 .about {
+  box-sizing: border-box;
   height: 80ex;
-}
+  padding-top: 5ex;
+  margin-bottom: 15ex;
+  margin-top: 1ex;
+  article {
+    box-sizing: border-box;
+    margin-top: 4ex;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 70ex;
+    width: 90%;
+    a {
+      text-decoration: none;
+      color: $Grinch;
+      padding: 2px;
+      border-radius: 3px;
+      &:hover {
+        text-decoration: underline;
+     }
+    }
+      ul {
+        width: 50%;
+        color:#000;
+        font-size: 1.2em;
+        font-weight: 100;
+        text-align: left;
+        margin-top: 10ex;
+        margin-left: 25%;
+        padding-top: 5ex;
+        padding-bottom: 4ex;
+        list-style: none;
+        border-left: 2px solid $Grinch;
+        border-bottom: 2px solid $Grinch;
+        border-radius: 20px;
+      }
+    img {
+      position: absolute;
+      top: 114ex;
+      left: 65%;
+      width: 12em;
+      border-radius: 50%;
+      border: 2px solid $Grinch;
+    }
+  }
+    .name {
+      box-sizing: border-box;
+      width: 85%;
+      float: right;
+      margin-right: 0;
+      margin-top: 2ex;
+      margin-bottom: 1ex;
+      padding-left: 1em;
+      text-align: left;
+      color: #fff;
+      font-weight: 300;
+      font-size: 3em;
+      background-color: $Grinch;
+    }
+      .email {
+        display: inline;
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        padding-bottom: 10px;
+     }
+}//.about
 
 .portfolio {
-  height: 80ex;
-}
+  box-sizing: border-box;
+  height: 150ex;
+  padding-top: 5ex;
+  margin-bottom: 15ex;
+  margin-top: 1ex;
+  .name {
+    box-sizing: border-box;
+    display: block;
+    width: 60%;
+    margin-top: 2ex;
+    margin-bottom: 1ex;
+    padding-right: 1em;
+    text-align: right;
+    color: #fff;
+    font-weight: 300;
+    font-size: 3em;
+    background-color: $Grinch;
+  }
+  .port-left {
+    box-sizing: border-box;
+    width: 100%* (2/3);
+    height: 33ex;
+    margin-right: 100%*(1/6);
+    margin-left: 100%*(1/6);
+    display: block;
+    float: left;
+    border-right: 2px solid $Grinch;
+    border-left: 2px solid $Grinch;
+
+      &:first-of-type {
+        border-top: 2px solid $Grinch;
+        margin-bottom: 2px;
+      }
+    .heading {
+      box-sizing: border-box;
+      width: 50%;
+      float: left;
+      padding: 2ex 2em;
+      background-color: $Grinch;
+      border-right: 2px solid $Grinch;
+      img {
+        width: 10em;
+        height: 20ex;
+        border-radius: 50%;
+        margin: 0 2em;
+        border: 2px solid #fff;
+      }
+      h3 {
+        width: 10em;
+        text-align: center;
+        color: #fff;
+        font-weight: 100;
+        font-size: 1.5em;
+        line-height: 0;
+      }
+      h4 {
+        width: 15em;
+        text-align: center;
+        color: #fff;
+        font-weight: 100;
+        font-size: 1em;
+        line-height: 0;
+        a {
+          text-decoration: none;
+          color: #fff;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .overview {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 2.5ex 2.5em;
+      p {
+        height: 21.5ex;
+        color: #000;
+        font-size: 0.9em;
+        a[href] {
+          text-decoration: none;
+          color: $Grinch;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  .port-right {
+    box-sizing: border-box;
+    width: 100%* (2/3);
+    display: block;
+    float: left;
+    margin-right: 100%*(1/6);
+    margin-left: 100%*(1/6);
+    margin-top: -0.1ex;
+    margin-bottom: -0.1ex;
+    border-left: 2px solid $Grinch;
+    &:last-of-type {
+      border-bottom: 2px solid $Grinch;
+    }
+    .overview {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 2ex 2.5em;
+      p {
+        height: 21.5ex;
+        color: #000;
+        font-size: 0.9em;
+      a[href] {
+        text-decoration: none;
+        color: $Grinch;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    }
+    .heading {
+      box-sizing: border-box;
+      width: 50%;
+      float: right;
+      padding: 3ex 2em;
+      background-color: $Grinch;
+      img {
+        width: 10em;
+        height: 20ex;
+        border-radius: 50%;
+        margin: 0 2.5em;
+        border: 2px solid #fff;
+      }
+      h3 {
+        width: 10em;
+        text-align: center;
+        color: #fff;
+        background-color: #fff;
+        font-weight: 100;
+        font-size: 1.5em;
+        line-height: 0;
+      }
+      h4 {
+        width: 15em;
+        text-align: center;
+        color: #fff;
+        font-weight: 100;
+        font-size: 1em;
+        line-height: 0;
+        a {
+          text-decoration: none;
+          color: #fff;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}//.portfolio
 
 .resume {
   height: 80ex;
-}
+}//.resume
 .contact {
   background-color: #00A030;/*rgba(13, 6, 48, 1)*/
   height: 80ex;
-}
+}//.contact
