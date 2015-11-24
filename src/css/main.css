@@ -1185,6 +1185,8 @@ body {
     height: auto; }
     body .container .portfolio .port-left .heading, body .container .portfolio .port-right .heading {
       width: 100%; }
+      body .container .portfolio .port-left .heading img, body .container .portfolio .port-right .heading img {
+        border: 1px solid #000; }
     body .container .portfolio .port-left .overview, body .container .portfolio .port-right .overview {
       width: 100%; }
   body .container .resume {

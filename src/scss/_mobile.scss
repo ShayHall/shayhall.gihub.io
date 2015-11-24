@@ -114,6 +114,9 @@ body {
         height: auto;
         .heading {
           width: 100%;
+          img {
+            border: 1px solid #000;
+          }
         }
         .overview {
           width: 100%;
