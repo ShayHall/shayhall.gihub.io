@@ -1100,7 +1100,7 @@ body {
     width: 75%;
     margin-left: 25%; } }
 
-@media (max-width: 27em) {
+@media (max-width: 30em) {
   body .container .top-menu {
     width: 100%; }
     body .container .top-menu .nav {
