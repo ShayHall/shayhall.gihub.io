@@ -1,3 +1,286 @@
-@media (min-width: 40em) {
+@media (max-width: 68.45em) {
+  body {
+    .container {
+      .nav {
+        li {
+          margin-right: 1em;//CHANGED
+          a[href] {
+            padding: 0.25ex 0.25em;//CHANGED
+          }
+        }
+      }
+      .about {
+        .nav {
+          li {
+            margin-right: 1em;//CHANGED
+            a[href] {
+              padding: 0.25ex 0.25em;//CHANGED
+            }
+          }
+        }
+        article {
+            ul {
+              padding-top: 3ex;//CHANGED
+              padding-bottom: 3ex;//CHANGED
+              padding-left: 3em;//CHANGED
+            }
+          img {
+            top: 129ex;//CHANGED
+            width: 10em;//CHANGED
+          }
+        }
+      }//.about
+      .portfolio {
+        .nav {
+          li {
+            margin-right: 1em;//CHANGED
+            a {
+              padding: 0.25ex 0.25em;//CHANGED
+            }
+          }
+        }
+        .port-left {
+          .overview {
+            padding: 1ex 2.5em;//CHANGED
+          }
+        }
+        .port-right {
+          .overview {
+            padding: 1ex 2.5em;//CHANGED
+          }
+        }
+      }//.portfolio
+      .resume {
+        .nav {
+          li {
+            margin-right: 1em;//CHANGED
+            a[href] {
+              padding: 0.25ex 0.25em;//CHANGED
+            }
+          }
+        }
+        article {
+          .jobs {
+            padding: 1ex 1.5em;//CHANGED
+            font-size: 0.9em;//CHANGED
+            p {
+              font-size: 0.9em;//CHANGED
+            }
+          }
+        }
+      }//.resume
+      .contact {
+        article {
+          .van {
+            li {
+              margin-right: 1em;//CHANGED
+              a[href] {
+                padding: 0.25ex 0.25em;//CHANGED
+              }
+            }
+          }
+        }
+      }//.contact
+    }
+  }//body
+}//media query max-width 68.45
 
-}//mediaquery
+@media (max-width: 55.25em) {
+  body {
+    .container {
+      .nav {
+        width: 100% * (3/4);//CHANGED
+        margin-left: 100% * (1/4);//CHANGED
+      }
+    .about {
+      .nav {
+        width: 100% * (3/4);//CHANGED
+        margin-left: 100% * (1/4);//CHANGED
+      }
+      article {
+        margin-left: 0;//CHANGED
+        img {
+          top: 122ex;//CHANGED
+          width: 8em;//CHANGED
+          left: 55%;//CHANGED
+        }
+        a {
+          padding: 0;//CHANGED
+        }
+        ul {
+          font-size: 1em;//CHANGED
+          margin-left: 20%;//CHANGED
+          padding-top: 1ex;//CHANGED
+          padding-bottom: 1ex;//CHANGED
+          padding-left: 1em;//CHANGED
+          li {
+            font-size: 1em;//CHANGED
+          }
+        }
+      }
+    }//.about
+    .portfolio {
+      .nav {
+        width: 100% * (3/4);//CHANGED
+        margin-left: 100% * (1/4);//CHANGED
+      }
+      .port-left {
+        width: 95%;//CHANGED
+        height: auto;
+        padding-top: 0.5ex;
+        padding-bottom: 4ex;
+        margin-right: 2.5%;//CHANGED
+        margin-left: 2.5%;//CHANGED
+        border: 2px solid #fff;//CHANGED
+        border-top: 2px solid $Grinch;
+        .overview {
+          padding: 0 1em;//CHANGED
+          p {
+            font-size: 0.8em;//CHANGED
+          }
+        }
+        .heading {
+          background-color: #fff;
+          padding: 2ex 2em;//CHANGED
+          border: 0;
+          img {
+            width: 70%;//CHANGED
+            height: 70%;//CHANGED
+            margin-left: 15%;//CHANGED
+            border-radius: 0;//CHANGED
+          }
+          h3 {
+            text-align: center;//CHANGED
+            font-size: 1.25em;//CHANGED
+            color: $Grinch;
+          }
+          h4 {
+            text-align: center;//CHANGED
+            font-size: 0.8em;//CHANGED
+            color: $Grinch;
+            a {
+              color: $Grinch;
+            }
+          }
+        }
+      }
+      .port-right {
+        width: 95%;//CHANGED
+        margin-right: 2.5%;//CHANGED
+        margin-left: 2.5%;//CHANGED
+        border: 2px solid #fff;//CHANGED
+        border-top: 2px solid $Grinch;
+        .overview {
+          padding: 0 1em;//CHANGED
+          p {
+            font-size: 0.8em;//CHANGED
+          }
+        }
+        .heading {
+          padding: 2ex 2em;//CHANGED
+          background-color: #fff;
+          img {
+            width: 70%;//CHANGED
+            height: 70%;//CHANGED
+            margin-left: 15%;//CHANGED
+            border-radius: 0;//CHANGED
+          }
+          h3 {
+            text-align: center;//CHANGED
+            font-size: 1.25em;//CHANGED
+            color: $Grinch;
+          }
+          h4 {
+            text-align: center;//CHANGED
+            font-size: 0.8em;//CHANGED
+            color: $Grinch;
+            a {
+              color: $Grinch;
+            }
+          }
+        }
+      }
+    }//.portfolio
+    .resume {
+      height: 197ex;
+      .nav {
+        width: 100% * (3/4);//CHANGED
+        margin-left: 100% * (1/4);//CHANGED
+      }
+        .name {
+          padding-left: 1em;//CHANGED
+          .email {
+            margin-left: 0.25em;//CHANGED
+          }
+        }
+      article {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 0.9em;
+        .jobs {
+        width: 100%;
+        margin-top: 0;
+        padding: 0 2em;
+        height: 100%;
+        &:first-of-type {
+          h4 {
+          padding-top: 0;
+          }
+        }
+          h4 {
+            line-height: 1ex;
+            padding-top: 3ex;
+            padding-bottom: 1ex;
+            border-bottom: 1px solid $Grinch;
+          }
+          p {
+            line-height: 1ex;
+          }
+          &:nth-of-type(odd) {
+            border: 0;
+          }
+          &:nth-of-type(2) {
+            border: 0;
+          }
+          &:nth-of-type(even) {
+            border: 0;
+          }
+        }
+      }
+    }//.resume
+    .contact {
+      h1 {
+        text-align: center;
+        color: #ffffff;
+        font-weight: 100;
+        font-size: 4em;
+        padding-top: 5ex;
+        line-height: 0.5ex;
+      }
+      article {
+        width: 100% * (1/2);
+        margin-left: 100% * (1/4);
+        p {
+          color:#ffffff;
+          font-size: 1.5em;
+          font-weight: 100;
+          text-align: center;
+          line-height: 2ex;
+        }
+        svg {
+          width: 35px;
+          height: 35px;
+        }
+        img {
+          width: 35px;
+          height: 35px;
+        }
+        .van {
+          width: 100% * (3/4);//CHANGED
+          margin-left: 100% * (1/4);//CHANGED
+        }
+      }
+    }//.contact
+    }//.container
+  }//body
+}//media query max-width 55.25em
