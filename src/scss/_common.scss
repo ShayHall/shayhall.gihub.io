@@ -6,6 +6,28 @@ body {
 }
 
 .container {
+  .nav {
+    box-sizing: border-box;
+    position: absolute;
+    top: -6ex;
+    width: 100% * (1/2);
+    margin-left: 100% * (1/2);
+    li {
+      display: block;
+      float: right;
+      margin-right: 2em;
+      list-style: none;
+      padding-left: 0;
+      a[href] {
+        text-decoration: none;
+        color: $Grinch;
+        font-weight: 100;
+        padding: 0.5ex 0.5em;
+        border: 1px solid $Grinch;
+        border-radius: 3px;
+      }
+    }
+  }
 }
 
 .headline {
@@ -49,35 +71,40 @@ body {
   }
 }
 
-.nav {
-  box-sizing: border-box;
-  position: fixed;
-  top: 0;
-  width: 100% * (1/2);
-  margin-left: 100% * (1/2);
-  li {
-    display: block;
-    float: right;
-    margin-right: 2em;
-    list-style: none;
-    padding-left: 0;
-    a {
-      text-decoration: none;
-      color: #00A030;/*rgba(13, 6, 48, 1)*/
-      font-weight: 100;
-      padding: 0.5ex 0.5em;
-      border: 1px solid #00A030;
-      border-radius: 3px;
-    }
-  }
-}
-
 .about {
   box-sizing: border-box;
   height: 80ex;
   padding-top: 5ex;
   margin-bottom: 15ex;
   margin-top: 1ex;
+  .nav {
+    box-sizing: border-box;
+    position: absolute;
+    top: 92ex;
+    width: 100% * (1/2);
+    margin-left: 100% * (1/2);
+    li {
+      display: block;
+      float: right;
+      margin-right: 2em;
+      list-style: none;
+      padding-left: 0;
+      a[href] {
+        text-decoration: none;
+        color: $Grinch;
+        font-weight: 100;
+        padding: 0.5ex 0.5em;
+        border: 1px solid $Grinch;
+        border-radius: 3px;
+        &.this-one{
+          background-color: $Grinch;
+          color: #fff;
+          border: 1px solid #fff;
+          border-radius: 3px;
+        }
+      }
+    }
+  }
   article {
     box-sizing: border-box;
     margin-top: 4ex;
@@ -102,8 +129,8 @@ body {
         text-align: left;
         margin-top: 10ex;
         margin-left: 25%;
-        padding-top: 10ex;
-        padding-bottom: 10ex;
+        padding-top: 5ex;
+        padding-bottom: 5ex;
         padding-left: 5em;
         list-style: none;
         border-left: 2px solid $Grinch;
@@ -115,7 +142,7 @@ body {
       }
     img {
       position: absolute;
-      top: 142ex;
+      top: 130ex;
       left: 75%;
       width: 12em;
       border-radius: 50%;
@@ -153,6 +180,34 @@ body {
   padding-bottom: 5ex;
   margin-top: 1ex;
   margin-bottom: 93ex;
+  .nav {
+    box-sizing: border-box;
+    position: absolute;
+    top: 187ex;
+    width: 100% * (1/2);
+    margin-left: 100% * (1/2);
+    li {
+      display: block;
+      float: right;
+      margin-right: 2em;
+      list-style: none;
+      padding-left: 0;
+      a {
+        text-decoration: none;
+        color: $Grinch;
+        font-weight: 100;
+        padding: 0.5ex 0.5em;
+        border: 1px solid $Grinch;
+        border-radius: 3px;
+        &.this-one{
+          background-color: $Grinch;
+          color: #fff;
+          border: 1px solid #fff;
+          border-radius: 3px;
+        }
+      }
+    }
+  }
   .name {
     box-sizing: border-box;
     display: block;
@@ -316,9 +371,38 @@ body {
   padding-top: 5ex;
   padding-bottom: 5ex;
   margin-top: 1ex;
+  .nav {
+    box-sizing: border-box;
+    position: absolute;
+    top: 385ex;
+    width: 100% * (1/2);
+    margin-left: 100% * (1/2);
+    li {
+      display: block;
+      float: right;
+      margin-right: 2em;
+      list-style: none;
+      padding-left: 0;
+      a[href] {
+        text-decoration: none;
+        color: $Grinch;
+        font-weight: 100;
+        padding: 0.5ex 0.5em;
+        border: 1px solid $Grinch;
+        border-radius: 3px;
+        &.this-one{
+          background-color: $Grinch;
+          color: #fff;
+          border: 1px solid #fff;
+          border-radius: 3px;
+        }
+      }
+
+    }
+  }
     .name {
       box-sizing: border-box;
-      width: 85%;
+      width: 100%;
       float: right;
       margin-right: 0;
       margin-top: 2ex;
@@ -435,23 +519,27 @@ body {
   .van {
     box-sizing: border-box;
     position: absolute;
-    top: 0;
+    top: 1ex;
     right: 0;
-    // width: 100% * (1/2);
-    // margin-left: 100% * (1/2);
     li {
       display: block;
       float: right;
       margin-right: 2em;
       list-style: none;
       padding-left: 0;
-      a {
+      a[href] {
         text-decoration: none;
         color: #fff;/*rgba(13, 6, 48, 1)*/
         font-weight: 100;
         padding: 0.5ex 0.5em;
         border: 1px solid #fff;
         border-radius: 3px;
+        &.this-one{
+          background-color: #fff;
+          color: $Grinch;
+          border: 1px solid $Grinch;
+          border-radius: 3px;
+        }
       }
     }
   }

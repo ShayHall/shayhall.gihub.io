@@ -81,6 +81,26 @@ body {
   font-family: 'Lato', sans-serif;
   position: relative; }
 
+.container .nav {
+  box-sizing: border-box;
+  position: absolute;
+  top: -6ex;
+  width: 50%;
+  margin-left: 50%; }
+  .container .nav li {
+    display: block;
+    float: right;
+    margin-right: 2em;
+    list-style: none;
+    padding-left: 0; }
+    .container .nav li a[href] {
+      text-decoration: none;
+      color: #00A030;
+      font-weight: 100;
+      padding: 0.5ex 0.5em;
+      border: 1px solid #00A030;
+      border-radius: 3px; }
+
 .headline {
   box-sizing: border-box;
   background-color: #00A030;
@@ -117,33 +137,36 @@ body {
     .headline article .email {
       margin-left: 0; }
 
-.nav {
-  box-sizing: border-box;
-  position: fixed;
-  top: 0;
-  width: 50%;
-  margin-left: 50%; }
-  .nav li {
-    display: block;
-    float: right;
-    margin-right: 2em;
-    list-style: none;
-    padding-left: 0; }
-    .nav li a {
-      text-decoration: none;
-      color: #00A030;
-      /*rgba(13, 6, 48, 1)*/
-      font-weight: 100;
-      padding: 0.5ex 0.5em;
-      border: 1px solid #00A030;
-      border-radius: 3px; }
-
 .about {
   box-sizing: border-box;
   height: 80ex;
   padding-top: 5ex;
   margin-bottom: 15ex;
   margin-top: 1ex; }
+  .about .nav {
+    box-sizing: border-box;
+    position: absolute;
+    top: 92ex;
+    width: 50%;
+    margin-left: 50%; }
+    .about .nav li {
+      display: block;
+      float: right;
+      margin-right: 2em;
+      list-style: none;
+      padding-left: 0; }
+      .about .nav li a[href] {
+        text-decoration: none;
+        color: #00A030;
+        font-weight: 100;
+        padding: 0.5ex 0.5em;
+        border: 1px solid #00A030;
+        border-radius: 3px; }
+        .about .nav li a[href].this-one {
+          background-color: #00A030;
+          color: #fff;
+          border: 1px solid #fff;
+          border-radius: 3px; }
   .about article {
     box-sizing: border-box;
     margin-top: 4ex;
@@ -166,8 +189,8 @@ body {
       text-align: left;
       margin-top: 10ex;
       margin-left: 25%;
-      padding-top: 10ex;
-      padding-bottom: 10ex;
+      padding-top: 5ex;
+      padding-bottom: 5ex;
       padding-left: 5em;
       list-style: none;
       border-left: 2px solid #00A030;
@@ -177,7 +200,7 @@ body {
         font-size: 1.2em; }
     .about article img {
       position: absolute;
-      top: 142ex;
+      top: 130ex;
       left: 75%;
       width: 12em;
       border-radius: 50%;
@@ -210,6 +233,30 @@ body {
   padding-bottom: 5ex;
   margin-top: 1ex;
   margin-bottom: 93ex; }
+  .portfolio .nav {
+    box-sizing: border-box;
+    position: absolute;
+    top: 187ex;
+    width: 50%;
+    margin-left: 50%; }
+    .portfolio .nav li {
+      display: block;
+      float: right;
+      margin-right: 2em;
+      list-style: none;
+      padding-left: 0; }
+      .portfolio .nav li a {
+        text-decoration: none;
+        color: #00A030;
+        font-weight: 100;
+        padding: 0.5ex 0.5em;
+        border: 1px solid #00A030;
+        border-radius: 3px; }
+        .portfolio .nav li a.this-one {
+          background-color: #00A030;
+          color: #fff;
+          border: 1px solid #fff;
+          border-radius: 3px; }
   .portfolio .name {
     box-sizing: border-box;
     display: block;
@@ -347,9 +394,33 @@ body {
   padding-top: 5ex;
   padding-bottom: 5ex;
   margin-top: 1ex; }
+  .resume .nav {
+    box-sizing: border-box;
+    position: absolute;
+    top: 385ex;
+    width: 50%;
+    margin-left: 50%; }
+    .resume .nav li {
+      display: block;
+      float: right;
+      margin-right: 2em;
+      list-style: none;
+      padding-left: 0; }
+      .resume .nav li a[href] {
+        text-decoration: none;
+        color: #00A030;
+        font-weight: 100;
+        padding: 0.5ex 0.5em;
+        border: 1px solid #00A030;
+        border-radius: 3px; }
+        .resume .nav li a[href].this-one {
+          background-color: #00A030;
+          color: #fff;
+          border: 1px solid #fff;
+          border-radius: 3px; }
   .resume .name {
     box-sizing: border-box;
-    width: 85%;
+    width: 100%;
     float: right;
     margin-right: 0;
     margin-top: 2ex;
@@ -448,7 +519,7 @@ body {
     .contact article .van {
       box-sizing: border-box;
       position: absolute;
-      top: 0;
+      top: 1ex;
       right: 0; }
       .contact article .van li {
         display: block;
@@ -456,7 +527,7 @@ body {
         margin-right: 2em;
         list-style: none;
         padding-left: 0; }
-        .contact article .van li a {
+        .contact article .van li a[href] {
           text-decoration: none;
           color: #fff;
           /*rgba(13, 6, 48, 1)*/
@@ -464,6 +535,11 @@ body {
           padding: 0.5ex 0.5em;
           border: 1px solid #fff;
           border-radius: 3px; }
+          .contact article .van li a[href].this-one {
+            background-color: #fff;
+            color: #00A030;
+            border: 1px solid #00A030;
+            border-radius: 3px; }
 
 .col-1-3 {
   width: 33.33333%;
