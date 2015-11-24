@@ -8,19 +8,19 @@ body {
       box-sizing: border-box;
       position: absolute;
       top: -6ex;
-      width: 100% * (1/2);
-      margin-left: 100% * (1/2);
+      width: 100% * (1/2);//CHANGED
+      margin-left: 100% * (1/2);//CHANGED
       li {
         display: block;
         float: right;
-        margin-right: 2em;
+        margin-right: 2em;//CHANGED
         list-style: none;
         padding-left: 0;
         a[href] {
           text-decoration: none;
           color: $Grinch;
           font-weight: 100;
-          padding: 0.5ex 0.5em;
+          padding: 0.5ex 0.5em;//CHANGED
           border: 1px solid $Grinch;
           border-radius: 3px;
         }
@@ -77,19 +77,19 @@ body {
       box-sizing: border-box;
       position: absolute;
       top: 92ex;
-      width: 100% * (1/2);
-      margin-left: 100% * (1/2);
+      width: 100% * (1/2);//CHANGED
+      margin-left: 100% * (1/2);//CHANGED
       li {
         display: block;
         float: right;
-        margin-right: 2em;
+        margin-right: 2em;//CHANGED
         list-style: none;
         padding-left: 0;
         a[href] {
           text-decoration: none;
           color: $Grinch;
           font-weight: 100;
-          padding: 0.5ex 0.5em;
+          padding: 0.5ex 0.5em;//CHANGED
           border: 1px solid $Grinch;
           border-radius: 3px;
           &.this-one{
@@ -104,7 +104,7 @@ body {
     article {
       box-sizing: border-box;
       margin-top: 4ex;
-      margin-left: 5%;
+      margin-left: 5%;//CHANGED
       margin-right: 5%;
       height: 70ex;
       width: 90%;
@@ -120,27 +120,27 @@ body {
         ul {
           width: 50%;
           color:#000;
-          font-size: 1.2em;
+          font-size: 1.2em;//CHANGED
           font-weight: 100;
           text-align: left;
           margin-top: 10ex;
-          margin-left: 25%;
-          padding-top: 5ex;
-          padding-bottom: 5ex;
-          padding-left: 5em;
+          margin-left: 25%;//CHANGED
+          padding-top: 5ex;//CHANGED
+          padding-bottom: 5ex;//CHANGED
+          padding-left: 5em;//CHANGED
           list-style: none;
           border-left: 2px solid $Grinch;
           border-bottom: 2px solid $Grinch;
           border-radius: 20px;
           li {
-            font-size: 1.2em;
+            font-size: 1.2em;//CHANGED
           }
         }
       img {
         position: absolute;
-        top: 130ex;
-        left: 75%;
-        width: 12em;
+        top: 130ex;//CHANGED
+        left: 75%;//CHANGED
+        width: 12em;//CHANGED
         border-radius: 50%;
         border: 2px solid $Grinch;
       }
@@ -179,19 +179,19 @@ body {
       box-sizing: border-box;
       position: absolute;
       top: 187ex;
-      width: 100% * (1/2);
-      margin-left: 100% * (1/2);
+      width: 100% * (1/2);//CHANGED
+      margin-left: 100% * (1/2);//CHANGED
       li {
         display: block;
         float: right;
-        margin-right: 2em;
+        margin-right: 2em;//CHANGED
         list-style: none;
         padding-left: 0;
         a {
           text-decoration: none;
           color: $Grinch;
           font-weight: 100;
-          padding: 0.5ex 0.5em;
+          padding: 0.5ex 0.5em;//CHANGED
           border: 1px solid $Grinch;
           border-radius: 3px;
           &.this-one{
@@ -218,14 +218,15 @@ body {
     }
     .port-left {
       box-sizing: border-box;
-      width: 100%* (2/3);
-      height: 32.5ex;
-      margin-right: 100%*(1/6);
-      margin-left: 100%*(1/6);
+      width: 100%* (2/3);//CHANGED
+      height: 32.5ex;//CHANGED
+      // padding: inherit;//CHANGED
+      margin-right: 100%*(1/6);//CHANGED
+      margin-left: 100%*(1/6);//CHANGED
       display: block;
       float: left;
-      border-right: 2px solid $Grinch;
-      border-left: 2px solid $Grinch;
+      border-right: 2px solid $Grinch;//CHANGED
+      border-left: 2px solid $Grinch;//CHANGED
       &:first-of-type {
         border-top: 2px solid $Grinch;
         margin-bottom: 2px;
@@ -239,32 +240,32 @@ body {
         width: 50%;
         float: left;
         padding: 2ex 2em;
-        background-color: $Grinch;
-        border-right: 2px solid $Grinch;
+        background-color: $Grinch;//CHANGED
+        border-right: 2px solid $Grinch;//CHANGED
         img {
           box-sizing: border-box;
-          width: 20ex;
-          height: 20ex;
-          border-radius: 50%;
-          margin-left: 0;
+          width: 20ex;//CHANGED
+          height: 20ex;//CHANGED
+          border-radius: 50%;//CHANGED
+          margin-left: 0;//CHANGED
           border: 2px solid #fff;
         }
         h3 {
-          text-align: left;
-          color: #fff;
+          text-align: left;//CHANGED
+          color: #fff;//CHANGED
           font-weight: 100;
-          font-size: 1.5em;
+          font-size: 1.5em;//CHANGED
           line-height: 0;
         }
         h4 {
-          text-align: left;
-          color: #fff;
+          text-align: left;//CHANGED
+          color: #fff;//CHANGED
           font-weight: 100;
-          font-size: 1em;
+          font-size: 1em;//CHANGED
           line-height: 0;
           a {
             text-decoration: none;
-            color: #fff;
+            color: #fff;//CHANGED
             &:hover {
               text-decoration: underline;
             }
@@ -275,11 +276,11 @@ body {
       box-sizing: border-box;
       width: 50%;
       float: left;
-      padding: 2.5ex 2.5em;
+      padding: 2.5ex 2.5em;//CHANGED
         p {
           height: 21.5ex;
           color: #000;
-          font-size: 0.9em;
+          font-size: 0.9em;//CHANGED
           a[href] {
             text-decoration: none;
             color: $Grinch;
@@ -292,23 +293,23 @@ body {
     }
     .port-right {
       box-sizing: border-box;
-      width: 100%* (2/3);
+      width: 100%* (2/3);//CHANGED
       display: block;
       float: left;
-      margin-right: 100%*(1/6);
-      margin-left: 100%*(1/6);
+      margin-right: 100%*(1/6);//CHANGED
+      margin-left: 100%*(1/6);//CHANGED
       margin-top: -0.1ex;
       margin-bottom: -0.1ex;
-      border-left: 2px solid $Grinch;
+      border-left: 2px solid $Grinch;//CHANGED
       .overview {
       box-sizing: border-box;
       width: 50%;
       float: left;
-      padding: 2ex 2.5em;
+      padding: 2ex 2.5em;//CHANGED
         p {
           height: 21.5ex;
           color: #000;
-          font-size: 0.9em;
+          font-size: 0.9em;//CHANGED
         a[href] {
           text-decoration: none;
           color: $Grinch;
@@ -322,33 +323,33 @@ body {
         box-sizing: border-box;
         width: 50%;
         float: right;
-        padding: 3ex 2em;
-        background-color: $Grinch;
+        padding: 3ex 2em;//CHANGED
+        background-color: $Grinch;//CHANGED
         img {
           box-sizing: border-box;
-          width: 20ex;
-          height: 20ex;
-          border-radius: 50%;
-          margin-left: 0;
+          width: 20ex;//CHANGED
+          height: 20ex;//CHANGED
+          border-radius: 50%;//CHANGED
+          margin-left: 0;//CHANGED
           border: 2px solid #fff;
         }
         h3 {
-          text-align: left;
-          color: #fff;
+          text-align: left;//CHANGED
+          color: #fff;//CHANGED
           background-color: #fff;
           font-weight: 100;
-          font-size: 1.5em;
+          font-size: 1.5em;//CHANGED
           line-height: 0;
         }
         h4 {
-          text-align: left;
-          color: #fff;
+          text-align: left;//CHANGED
+          color: #fff;//CHANGED
           font-weight: 100;
-          font-size: 1em;
+          font-size: 1em;//CHANGED
           line-height: 0;
           a {
             text-decoration: none;
-            color: #fff;
+            color: #fff;//CHANGED
             &:hover {
               text-decoration: underline;
             }
@@ -360,7 +361,7 @@ body {
   .resume {
     box-sizing: border-box;
     width: 100%;
-    height: 150ex;
+    height: 150ex;//CHANGED
     display: block;
     padding-top: 5ex;
     padding-bottom: 5ex;
@@ -369,19 +370,19 @@ body {
       box-sizing: border-box;
       position: absolute;
       top: 385ex;
-      width: 100% * (1/2);
-      margin-left: 100% * (1/2);
+      width: 100% * (1/2);//CHANGED
+      margin-left: 100% * (1/2);//CHANGED
       li {
         display: block;
         float: right;
-        margin-right: 2em;
+        margin-right: 2em;//CHANGED
         list-style: none;
         padding-left: 0;
         a[href] {
           text-decoration: none;
           color: $Grinch;
           font-weight: 100;
-          padding: 0.5ex 0.5em;
+          padding: 0.5ex 0.5em;//CHANGED
           border: 1px solid $Grinch;
           border-radius: 3px;
           &.this-one{
@@ -401,7 +402,7 @@ body {
         margin-right: 0;
         margin-top: 2ex;
         margin-bottom: 1ex;
-        padding-left: 1em;
+        padding-left: 1em;//CHANGED
         text-align: left;
         color: #fff;
         font-weight: 300;
@@ -422,14 +423,16 @@ body {
         padding-bottom: 0.25ex;
       }
       .email {
-        margin-left: 1em;
+        margin-left: 1em;//CHANGED
       }
       }
     article {
       display: block;
-      width: 100%;
+      width: 100%;//CHANGED
+      // margin-left: auto;//CHANGED
       margin-top: 20ex;
       margin-bottom: -14ex;
+      // font-size: 1em;//CHANGED
       h3 {
         width: 100%;
         text-align: center;
@@ -445,28 +448,31 @@ body {
         }
       }
       .jobs {
-      // box-sizing: border-box;
-      margin-top: 2ex;
-      padding: 2ex 2em;
-      height: 70ex;
+      // width: auto;//CHANGED
+      margin-top: 2ex;//CHANGED
+      padding: 2ex 2em;//CHANGED
+      height: 70ex;//CHANGED
+      font-size:1em;//CHANGED
         h4 {
           text-align: center;
           color: $Grinch;
           font-weight: 100;
-          line-height: 0;
+          // padding: inherit;//CHANGED
+          line-height: 0;//CHANGED
         }
         p {
-          line-height: 0;
+          line-height: 0;//CHANGED
+      font-size:1em;//CHANGED
         }
         &:nth-of-type(odd) {
-          border-right: 2px solid $Grinch;
-          border-bottom: 2px solid $Grinch;
+          border-right: 2px solid $Grinch;//CHANGED
+          border-bottom: 2px solid $Grinch;//CHANGED
         }
         &:nth-of-type(2) {
-          border-right: 2px solid $Grinch;
+          border-right: 2px solid $Grinch;//CHANGED
         }
         &:nth-of-type(even) {
-          border-top: 2px solid $Grinch;
+          border-top: 2px solid $Grinch;//CHANGED
         }
       }
     }
@@ -477,11 +483,11 @@ body {
   	background-color: $Grinch;/*rgba(13, 6, 48, 1)*/
     height: 90ex;
     h1 {
-      background-color: $Grinch;/*rgba(13, 6, 48, 1)*/
+      background-color: $Grinch;//CHANGED
       text-align: center;
       color: #ffffff;
       font-weight: 100;
-      font-size: 5em;
+      font-size: 5em;//CHANGED
       padding-top: 5ex;
       line-height: 0.5ex;
     }
@@ -496,14 +502,14 @@ body {
         line-height: 2ex;
       }
       svg {
-        width: 55px;
-        height: 55px;
+        width: 55px;//CHANGED
+        height: 55px;//CHANGED
         fill: white;
         margin-left: 1em;
       }
       img {
-        width: 55px;
-        height: 55px;
+        width: 55px;//CHANGED
+        height: 55px;//CHANGED
         fill: white;
         margin-left: 1em;
       }
@@ -515,17 +521,19 @@ body {
         position: absolute;
         top: 1ex;
         right: 0;
+        // width: auto;//CHANGED
+        // margin-left: auto;//CHANGED
         li {
           display: block;
           float: right;
-          margin-right: 2em;
+          margin-right: 2em;//CHANGED
           list-style: none;
           padding-left: 0;
           a[href] {
             text-decoration: none;
             color: #fff;/*rgba(13, 6, 48, 1)*/
             font-weight: 100;
-            padding: 0.5ex 0.5em;
+            padding: 0.5ex 0.5em;//CHANGED
             border: 1px solid #fff;
             border-radius: 3px;
             &.this-one{

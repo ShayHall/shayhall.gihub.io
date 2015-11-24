@@ -16,7 +16,7 @@
     </head>
     <body>
       <main class="container">
-        <nav>
+        <nav class="top-menu">
           <ul class="nav">
             <li><a href="#contact">Contact</a></li>
             <li><a href="#resume">Resume</a></li>
@@ -83,7 +83,7 @@
         </section><!--END Headline Section-->
 
         <section id="about" class="about"><!--About Section-->
-        <nav>
+        <nav class="menu">
           <ul class="nav">
             <li><a href="#contact">Contact</a></li>
             <li><a href="#resume">Resume</a></li>
@@ -106,7 +106,7 @@
         </section><!--END About Section-->
 
         <section id="portfolio" class="portfolio"><!--Portfolio Section-->
-        <nav>
+        <nav class="menu">
           <ul class="nav">
             <li><a href="#contact">Contact</a></li>
             <li><a href="#resume">Resume</a></li>
@@ -127,13 +127,13 @@
           </article><!--Brew Keeper-->
 
           <article class="port-right">
-          <div class="overview">
-            <p><strong>Chessboard</strong> is an Iron Yard assignmnet that utilizes MVC to play out the famous <a href="http://www.chess.com/opening/eco/E06_Catalan_Opening_Closed_variation">Catalan Opening</a> one step at a time or automatically. </br></br><strong>Tech Used:</strong> TDD(Mocha/Chai), Sass, jQuery, JavaScript, CSS3, and HTML5.</p>
-          </div>
             <div class="heading">
               <img src="src/img/chessboard-screenshot.png"/>
               <h3>Chessboard</h3>
               <h4><a href="http://shayhall.github.io/TIY-Chessboard/">VIEW LIVE</a> |<a href="https://github.com/ShayHall/TIY-Chessboard">VIEW CODE</a></h4>
+            </div>
+            <div class="overview">
+              <p><strong>Chessboard</strong> is an Iron Yard assignmnet that utilizes MVC to play out the famous <a href="http://www.chess.com/opening/eco/E06_Catalan_Opening_Closed_variation">Catalan Opening</a> one step at a time or automatically. </br></br><strong>Tech Used:</strong> TDD(Mocha/Chai), Sass, jQuery, JavaScript, CSS3, and HTML5.</p>
             </div>
 
           </article><!--Chessboard-->
@@ -173,19 +173,17 @@
         </section><!--END Portfolio Section-->
 
         <section id="resume" class="resume"><!--Resume Section-->
-      <nav>
-        <ul class="nav">
-          <li><a href="#contact">Contact</a></li>
-          <li><a class="this-one" href="#resume">Resume</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
-        </ul>
-      </nav>
+          <nav class="menu">
+            <ul class="nav">
+              <li><a href="#contact">Contact</a></li>
+              <li><a class="this-one" href="#resume">Resume</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#about">About</a></li>
+            </ul>
+          </nav>
           <h2 class="name">Resume          <a href="mailto:hallshay@gmail.com"><img class="email" src="src/img/mail.svg"/></a>
-                    <a href="https://www.linkedin.com/in/shay-hall-b0ba1a3a"><img src="src/img/linkedin1.svg"/></a>
-                    <a href="https://twitter.com/Shay_Hall"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          	         width="49.652px" height="49.652px" viewBox="0 0 49.652 49.652" style="enable-background:new 0 0 49.652 49.652;"
-          	         xml:space="preserve">
+            <a href="https://www.linkedin.com/in/shay-hall-b0ba1a3a"><img src="src/img/linkedin1.svg"/></a>
+            <a href="https://twitter.com/Shay_Hall"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="49.652px" height="49.652px" viewBox="0 0 49.652 49.652" style="enable-background:new 0 0 49.652 49.652;"xml:space="preserve">
                       <g>
           	         <g>
             		      <path d="M24.826,0C11.137,0,0,11.137,0,24.826c0,13.688,11.137,24.826,24.826,24.826c13.688,0,24.826-11.138,24.826-24.826
@@ -349,7 +347,7 @@
       </svg></a>
       </p>
     </div>
-        <nav>
+        <nav class="menu">
           <ul class="van">
             <li><a class="this-one" href="#contact">Contact</a></li>
             <li><a href="#resume">Resume</a></li>

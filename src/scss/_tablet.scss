@@ -3,68 +3,68 @@
     .container {
       .nav {
         li {
-          margin-right: 1em;//CHANGED
+          margin-right: 1em;
           a[href] {
-            padding: 0.25ex 0.25em;//CHANGED
+            padding: 0.25ex 0.25em;
           }
         }
       }
       .about {
         .nav {
           li {
-            margin-right: 1em;//CHANGED
+            margin-right: 1em;
             a[href] {
-              padding: 0.25ex 0.25em;//CHANGED
+              padding: 0.25ex 0.25em;
             }
           }
         }
         article {
             ul {
-              padding-top: 3ex;//CHANGED
-              padding-bottom: 3ex;//CHANGED
-              padding-left: 3em;//CHANGED
+              padding-top: 3ex;
+              padding-bottom: 3ex;
+              padding-left: 3em;
             }
           img {
-            top: 129ex;//CHANGED
-            width: 10em;//CHANGED
+            top: 129ex;
+            width: 10em;
           }
         }
       }//.about
       .portfolio {
         .nav {
           li {
-            margin-right: 1em;//CHANGED
+            margin-right: 1em;
             a {
-              padding: 0.25ex 0.25em;//CHANGED
+              padding: 0.25ex 0.25em;
             }
           }
         }
         .port-left {
           .overview {
-            padding: 1ex 2.5em;//CHANGED
+            padding: 1ex 2.5em;
           }
         }
         .port-right {
           .overview {
-            padding: 1ex 2.5em;//CHANGED
+            padding: 1ex 2.5em;
           }
         }
       }//.portfolio
       .resume {
         .nav {
           li {
-            margin-right: 1em;//CHANGED
+            margin-right: 1em;
             a[href] {
-              padding: 0.25ex 0.25em;//CHANGED
+              padding: 0.25ex 0.25em;
             }
           }
         }
         article {
           .jobs {
-            padding: 1ex 1.5em;//CHANGED
-            font-size: 0.9em;//CHANGED
+            padding: 1ex 1.5em;
+            font-size: 0.9em;
             p {
-              font-size: 0.9em;//CHANGED
+              font-size: 0.9em;
             }
           }
         }
@@ -73,9 +73,9 @@
         article {
           .van {
             li {
-              margin-right: 1em;//CHANGED
+              margin-right: 1em;
               a[href] {
-                padding: 0.25ex 0.25em;//CHANGED
+                padding: 0.25ex 0.25em;
               }
             }
           }
@@ -89,74 +89,74 @@
   body {
     .container {
       .nav {
-        width: 100% * (3/4);//CHANGED
-        margin-left: 100% * (1/4);//CHANGED
+        width: 100% * (3/4);
+        margin-left: 100% * (1/4);
       }
     .about {
       .nav {
-        width: 100% * (3/4);//CHANGED
-        margin-left: 100% * (1/4);//CHANGED
+        width: 100% * (3/4);
+        margin-left: 100% * (1/4);
       }
       article {
-        margin-left: 0;//CHANGED
+        margin-left: 0;
         img {
-          top: 122ex;//CHANGED
-          width: 8em;//CHANGED
-          left: 55%;//CHANGED
+          top: 122ex;
+          width: 8em;
+          left: 55%;
         }
         a {
-          padding: 0;//CHANGED
+          padding: 0;
         }
         ul {
-          font-size: 1em;//CHANGED
-          margin-left: 20%;//CHANGED
-          padding-top: 1ex;//CHANGED
-          padding-bottom: 1ex;//CHANGED
-          padding-left: 1em;//CHANGED
+          font-size: 1em;
+          margin-left: 20%;
+          padding-top: 1ex;
+          padding-bottom: 1ex;
+          padding-left: 1em;
           li {
-            font-size: 1em;//CHANGED
+            font-size: 1em;
           }
         }
       }
     }//.about
     .portfolio {
       .nav {
-        width: 100% * (3/4);//CHANGED
-        margin-left: 100% * (1/4);//CHANGED
+        width: 100% * (3/4);
+        margin-left: 100% * (1/4);
       }
       .port-left {
-        width: 95%;//CHANGED
+        width: 95%;
         height: auto;
         padding-top: 0.5ex;
         padding-bottom: 4ex;
-        margin-right: 2.5%;//CHANGED
-        margin-left: 2.5%;//CHANGED
-        border: 2px solid #fff;//CHANGED
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        border: 2px solid #fff;
         border-top: 2px solid $Grinch;
         .overview {
-          padding: 0 1em;//CHANGED
+          padding: 0 1em;
           p {
-            font-size: 0.8em;//CHANGED
+            font-size: 0.8em;
           }
         }
         .heading {
           background-color: #fff;
-          padding: 2ex 2em;//CHANGED
+          // padding: 2ex 2em;
           border: 0;
           img {
-            width: 70%;//CHANGED
-            height: 70%;//CHANGED
-            margin-left: 15%;//CHANGED
-            border-radius: 0;//CHANGED
+            width: 70%;
+            height: 70%;
+            margin-left: 15%;
+            border-radius: 0;
           }
           h3 {
-            text-align: center;//CHANGED
-            font-size: 1.25em;//CHANGED
+            text-align: center;
+            font-size: 1.25em;
             color: $Grinch;
           }
           h4 {
-            text-align: center;//CHANGED
-            font-size: 0.8em;//CHANGED
+            text-align: center;
+            font-size: 0.8em;
             color: $Grinch;
             a {
               color: $Grinch;
@@ -165,34 +165,34 @@
         }
       }
       .port-right {
-        width: 95%;//CHANGED
-        margin-right: 2.5%;//CHANGED
-        margin-left: 2.5%;//CHANGED
-        border: 2px solid #fff;//CHANGED
+        width: 95%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        border: 2px solid #fff;
         border-top: 2px solid $Grinch;
         .overview {
-          padding: 0 1em;//CHANGED
+          padding: 0 1em;
           p {
-            font-size: 0.8em;//CHANGED
+            font-size: 0.8em;
           }
         }
         .heading {
-          padding: 2ex 2em;//CHANGED
+          padding: 2ex 2em;
           background-color: #fff;
           img {
-            width: 70%;//CHANGED
-            height: 70%;//CHANGED
-            margin-left: 15%;//CHANGED
-            border-radius: 0;//CHANGED
+            width: 70%;
+            height: 70%;
+            margin-left: 15%;
+            border-radius: 0;
           }
           h3 {
-            text-align: center;//CHANGED
-            font-size: 1.25em;//CHANGED
+            text-align: center;
+            font-size: 1.25em;
             color: $Grinch;
           }
           h4 {
-            text-align: center;//CHANGED
-            font-size: 0.8em;//CHANGED
+            text-align: center;
+            font-size: 0.8em;
             color: $Grinch;
             a {
               color: $Grinch;
@@ -204,13 +204,13 @@
     .resume {
       height: 197ex;
       .nav {
-        width: 100% * (3/4);//CHANGED
-        margin-left: 100% * (1/4);//CHANGED
+        width: 100% * (3/4);
+        margin-left: 100% * (1/4);
       }
         .name {
-          padding-left: 1em;//CHANGED
+          padding-left: 1em;
           .email {
-            margin-left: 0.25em;//CHANGED
+            margin-left: 0.25em;
           }
         }
       article {
@@ -250,23 +250,9 @@
     }//.resume
     .contact {
       h1 {
-        text-align: center;
-        color: #ffffff;
-        font-weight: 100;
         font-size: 4em;
-        padding-top: 5ex;
-        line-height: 0.5ex;
       }
       article {
-        width: 100% * (1/2);
-        margin-left: 100% * (1/4);
-        p {
-          color:#ffffff;
-          font-size: 1.5em;
-          font-weight: 100;
-          text-align: center;
-          line-height: 2ex;
-        }
         svg {
           width: 35px;
           height: 35px;
@@ -276,8 +262,8 @@
           height: 35px;
         }
         .van {
-          width: 100% * (3/4);//CHANGED
-          margin-left: 100% * (1/4);//CHANGED
+          width: 100% * (3/4);
+          margin-left: 100% * (1/4);
         }
       }
     }//.contact
