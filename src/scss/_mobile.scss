@@ -1,1 +1,542 @@
+@media (max-width: 27em) {
 
+
+body {
+  .container {
+    .nav {
+      box-sizing: border-box;
+      position: absolute;
+      top: -6ex;
+      width: 100% * (1/2);
+      margin-left: 100% * (1/2);
+      li {
+        display: block;
+        float: right;
+        margin-right: 2em;
+        list-style: none;
+        padding-left: 0;
+        a[href] {
+          text-decoration: none;
+          color: $Grinch;
+          font-weight: 100;
+          padding: 0.5ex 0.5em;
+          border: 1px solid $Grinch;
+          border-radius: 3px;
+        }
+      }
+    }
+  }
+  .headline {
+    box-sizing: border-box;
+  	background-color: $Grinch;/*rgba(13, 6, 48, 1)*/
+    height: 90ex;
+    h1 {
+      background-color: $Grinch;/*rgba(13, 6, 48, 1)*/
+      text-align: center;
+      color: #ffffff;
+      font-weight: 100;
+      font-size: 5em;
+      padding-top: 5ex;
+      line-height: 0.5ex;
+    }
+    article {
+      width: 100% * (1/2);
+      margin-left: 100% * (1/4);
+      p {
+        color:#ffffff;
+        font-size: 1.5em;
+        font-weight: 100;
+        text-align: center;
+        line-height: 2ex;
+      }
+      svg {
+        width: 35px;
+        height: 35px;
+        fill: white;
+        margin-left: 1em;
+      }
+      img {
+        width: 35px;
+        height: 35px;
+        fill: white;
+        margin-left: 1em;
+      }
+      .email {
+        margin-left: 0;
+      }
+    }
+  }
+  .about {
+    box-sizing: border-box;
+    height: 80ex;
+    padding-top: 5ex;
+    margin-bottom: 15ex;
+    margin-top: 1ex;
+    .nav {
+      box-sizing: border-box;
+      position: absolute;
+      top: 92ex;
+      width: 100% * (1/2);
+      margin-left: 100% * (1/2);
+      li {
+        display: block;
+        float: right;
+        margin-right: 2em;
+        list-style: none;
+        padding-left: 0;
+        a[href] {
+          text-decoration: none;
+          color: $Grinch;
+          font-weight: 100;
+          padding: 0.5ex 0.5em;
+          border: 1px solid $Grinch;
+          border-radius: 3px;
+          &.this-one{
+            background-color: $Grinch;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+    article {
+      box-sizing: border-box;
+      margin-top: 4ex;
+      margin-left: 5%;
+      margin-right: 5%;
+      height: 70ex;
+      width: 90%;
+      a {
+        text-decoration: none;
+        color: $Grinch;
+        padding: 2px;
+        border-radius: 3px;
+        &:hover {
+          text-decoration: underline;
+       }
+      }
+        ul {
+          width: 50%;
+          color:#000;
+          font-size: 1.2em;
+          font-weight: 100;
+          text-align: left;
+          margin-top: 10ex;
+          margin-left: 25%;
+          padding-top: 5ex;
+          padding-bottom: 5ex;
+          padding-left: 5em;
+          list-style: none;
+          border-left: 2px solid $Grinch;
+          border-bottom: 2px solid $Grinch;
+          border-radius: 20px;
+          li {
+            font-size: 1.2em;
+          }
+        }
+      img {
+        position: absolute;
+        top: 130ex;
+        left: 75%;
+        width: 12em;
+        border-radius: 50%;
+        border: 2px solid $Grinch;
+      }
+    }
+      .name {
+        box-sizing: border-box;
+        width: 85%;
+        float: right;
+        margin-right: 0;
+        margin-top: 2ex;
+        margin-bottom: 1ex;
+        padding-left: 1em;
+        text-align: left;
+        color: #fff;
+        font-weight: 300;
+        font-size: 3em;
+        background-color: $Grinch;
+      }
+        .email {
+          display: inline;
+          width: 35px;
+          height: 35px;
+          margin: 0;
+          padding-bottom: 10px;
+       }
+  }//.about
+  .portfolio {
+    box-sizing: border-box;
+    height: 105ex;
+    display: block;
+    padding-top: 5ex;
+    padding-bottom: 5ex;
+    margin-top: 1ex;
+    margin-bottom: 93ex;
+    .nav {
+      box-sizing: border-box;
+      position: absolute;
+      top: 187ex;
+      width: 100% * (1/2);
+      margin-left: 100% * (1/2);
+      li {
+        display: block;
+        float: right;
+        margin-right: 2em;
+        list-style: none;
+        padding-left: 0;
+        a {
+          text-decoration: none;
+          color: $Grinch;
+          font-weight: 100;
+          padding: 0.5ex 0.5em;
+          border: 1px solid $Grinch;
+          border-radius: 3px;
+          &.this-one{
+            background-color: $Grinch;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+    .name {
+      box-sizing: border-box;
+      display: block;
+      width: 60%;
+      margin-top: 2ex;
+      margin-bottom: 3ex;
+      padding-right: 1em;
+      text-align: right;
+      color: #fff;
+      font-weight: 300;
+      font-size: 3em;
+      background-color: $Grinch;
+    }
+    .port-left {
+      box-sizing: border-box;
+      width: 100%* (2/3);
+      height: 32.5ex;
+      margin-right: 100%*(1/6);
+      margin-left: 100%*(1/6);
+      display: block;
+      float: left;
+      border-right: 2px solid $Grinch;
+      border-left: 2px solid $Grinch;
+      &:first-of-type {
+        border-top: 2px solid $Grinch;
+        margin-bottom: 2px;
+      }
+      &:last-of-type {
+        height: 32.5ex;
+        border-bottom: 2px solid $Grinch;
+      }
+      .heading {
+        box-sizing: border-box;
+        width: 50%;
+        float: left;
+        padding: 2ex 2em;
+        background-color: $Grinch;
+        border-right: 2px solid $Grinch;
+        img {
+          box-sizing: border-box;
+          width: 20ex;
+          height: 20ex;
+          border-radius: 50%;
+          margin-left: 0;
+          border: 2px solid #fff;
+        }
+        h3 {
+          text-align: left;
+          color: #fff;
+          font-weight: 100;
+          font-size: 1.5em;
+          line-height: 0;
+        }
+        h4 {
+          text-align: left;
+          color: #fff;
+          font-weight: 100;
+          font-size: 1em;
+          line-height: 0;
+          a {
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      .overview {
+      box-sizing: border-box;
+      width: 50%;
+      float: left;
+      padding: 2.5ex 2.5em;
+        p {
+          height: 21.5ex;
+          color: #000;
+          font-size: 0.9em;
+          a[href] {
+            text-decoration: none;
+            color: $Grinch;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    .port-right {
+      box-sizing: border-box;
+      width: 100%* (2/3);
+      display: block;
+      float: left;
+      margin-right: 100%*(1/6);
+      margin-left: 100%*(1/6);
+      margin-top: -0.1ex;
+      margin-bottom: -0.1ex;
+      border-left: 2px solid $Grinch;
+      .overview {
+      box-sizing: border-box;
+      width: 50%;
+      float: left;
+      padding: 2ex 2.5em;
+        p {
+          height: 21.5ex;
+          color: #000;
+          font-size: 0.9em;
+        a[href] {
+          text-decoration: none;
+          color: $Grinch;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      }
+      .heading {
+        box-sizing: border-box;
+        width: 50%;
+        float: right;
+        padding: 3ex 2em;
+        background-color: $Grinch;
+        img {
+          box-sizing: border-box;
+          width: 20ex;
+          height: 20ex;
+          border-radius: 50%;
+          margin-left: 0;
+          border: 2px solid #fff;
+        }
+        h3 {
+          text-align: left;
+          color: #fff;
+          background-color: #fff;
+          font-weight: 100;
+          font-size: 1.5em;
+          line-height: 0;
+        }
+        h4 {
+          text-align: left;
+          color: #fff;
+          font-weight: 100;
+          font-size: 1em;
+          line-height: 0;
+          a {
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }//.portfolio
+  .resume {
+    box-sizing: border-box;
+    width: 100%;
+    height: 150ex;
+    display: block;
+    padding-top: 5ex;
+    padding-bottom: 5ex;
+    margin-top: 1ex;
+    .nav {
+      box-sizing: border-box;
+      position: absolute;
+      top: 385ex;
+      width: 100% * (1/2);
+      margin-left: 100% * (1/2);
+      li {
+        display: block;
+        float: right;
+        margin-right: 2em;
+        list-style: none;
+        padding-left: 0;
+        a[href] {
+          text-decoration: none;
+          color: $Grinch;
+          font-weight: 100;
+          padding: 0.5ex 0.5em;
+          border: 1px solid $Grinch;
+          border-radius: 3px;
+          &.this-one{
+            background-color: $Grinch;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 3px;
+          }
+        }
+
+      }
+    }
+      .name {
+        box-sizing: border-box;
+        width: 100%;
+        float: right;
+        margin-right: 0;
+        margin-top: 2ex;
+        margin-bottom: 1ex;
+        padding-left: 1em;
+        text-align: left;
+        color: #fff;
+        font-weight: 300;
+        font-size: 3em;
+        background-color: $Grinch;
+      svg {
+        width: 35px;
+        height: 35px;
+        fill: white;
+        margin-left: 0.25em;
+        padding-bottom: 0.25ex;
+      }
+      img {
+        width: 35px;
+        height: 35px;
+        fill: white;
+        margin-left: 0.25em;
+        padding-bottom: 0.25ex;
+      }
+      .email {
+        margin-left: 1em;
+      }
+      }
+    article {
+      display: block;
+      width: 100%;
+      margin-top: 20ex;
+      margin-bottom: -14ex;
+      h3 {
+        width: 100%;
+        text-align: center;
+        color: $Grinch;
+        font-weight: 100;
+        font-size: 1.5em;
+        line-height: 0;
+      }
+      p {
+        text-align: center;
+        span {
+          color: $Grinch;
+        }
+      }
+      .jobs {
+      // box-sizing: border-box;
+      margin-top: 2ex;
+      padding: 2ex 2em;
+      height: 70ex;
+        h4 {
+          text-align: center;
+          color: $Grinch;
+          font-weight: 100;
+          line-height: 0;
+        }
+        p {
+          line-height: 0;
+        }
+        &:nth-of-type(odd) {
+          border-right: 2px solid $Grinch;
+          border-bottom: 2px solid $Grinch;
+        }
+        &:nth-of-type(2) {
+          border-right: 2px solid $Grinch;
+        }
+        &:nth-of-type(even) {
+          border-top: 2px solid $Grinch;
+        }
+      }
+    }
+  }//.resume
+  .contact {
+    box-sizing: border-box;
+    position: relative;
+  	background-color: $Grinch;/*rgba(13, 6, 48, 1)*/
+    height: 90ex;
+    h1 {
+      background-color: $Grinch;/*rgba(13, 6, 48, 1)*/
+      text-align: center;
+      color: #ffffff;
+      font-weight: 100;
+      font-size: 5em;
+      padding-top: 5ex;
+      line-height: 0.5ex;
+    }
+    article {
+      width: 100% * (1/2);
+      margin-left: 100% * (1/4);
+      p {
+        color:#ffffff;
+        font-size: 1.5em;
+        font-weight: 100;
+        text-align: center;
+        line-height: 2ex;
+      }
+      svg {
+        width: 55px;
+        height: 55px;
+        fill: white;
+        margin-left: 1em;
+      }
+      img {
+        width: 55px;
+        height: 55px;
+        fill: white;
+        margin-left: 1em;
+      }
+      .email {
+        margin-left: 0;
+      }
+      .van {
+        box-sizing: border-box;
+        position: absolute;
+        top: 1ex;
+        right: 0;
+        li {
+          display: block;
+          float: right;
+          margin-right: 2em;
+          list-style: none;
+          padding-left: 0;
+          a[href] {
+            text-decoration: none;
+            color: #fff;/*rgba(13, 6, 48, 1)*/
+            font-weight: 100;
+            padding: 0.5ex 0.5em;
+            border: 1px solid #fff;
+            border-radius: 3px;
+            &.this-one{
+              background-color: #fff;
+              color: $Grinch;
+              border: 1px solid $Grinch;
+              border-radius: 3px;
+            }
+          }
+        }
+      }
+    }
+  }//.contact
+}//body
+}//media query
