@@ -35,10 +35,10 @@ body {
         margin-left: 0;
       }
     }//.headline
-    .about, .portfolio, .resume, .contact {
+    .about, .portfolio, .resume {
       .menu {
         width: 100%;
-        .nav, .van {
+        .nav {
           width: 95%;//CHANGED
           margin-left: 2.5%;//CHANGED
           margin-right: 2.5%;//CHANGED
@@ -52,8 +52,7 @@ body {
               border: 0;
               &.this-one {
                 background-color: #fff;
-                color: $Grinch;
-                text-decoration: line-through;
+                color: lighten($Grinch, 10%);
                 margin-right: 0;
               }
             }
@@ -159,6 +158,30 @@ body {
       article {
         width: 100%;
         margin-left: 0;
+      }
+      .menu {
+        width: 100%;
+        .van {
+          width: 95%;//CHANGED
+          margin-left: 2.5%;//CHANGED
+          margin-right: 2.5%;//CHANGED
+          li {
+            float: left;
+            margin-right: 0;//CHANGED
+            width: 100% * (1/4);
+            a[href] {
+              font-weight: 400;
+              padding: 0;//CHANGED
+              border: 0;
+              &.this-one {
+                background-color: $Grinch;
+                color: #fff;
+                text-decoration: underline;
+                margin-right: 0;
+              }
+            }
+          }
+        }
       }
     }//.contact
   }//.container

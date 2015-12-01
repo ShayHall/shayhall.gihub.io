@@ -1126,24 +1126,23 @@ body {
   body .container .headline article {
     width: 100%;
     margin-left: 0; }
-  body .container .about .menu, body .container .portfolio .menu, body .container .resume .menu, body .container .contact .menu {
+  body .container .about .menu, body .container .portfolio .menu, body .container .resume .menu {
     width: 100%; }
-    body .container .about .menu .nav, body .container .about .menu .van, body .container .portfolio .menu .nav, body .container .portfolio .menu .van, body .container .resume .menu .nav, body .container .resume .menu .van, body .container .contact .menu .nav, body .container .contact .menu .van {
+    body .container .about .menu .nav, body .container .portfolio .menu .nav, body .container .resume .menu .nav {
       width: 95%;
       margin-left: 2.5%;
       margin-right: 2.5%; }
-      body .container .about .menu .nav li, body .container .about .menu .van li, body .container .portfolio .menu .nav li, body .container .portfolio .menu .van li, body .container .resume .menu .nav li, body .container .resume .menu .van li, body .container .contact .menu .nav li, body .container .contact .menu .van li {
+      body .container .about .menu .nav li, body .container .portfolio .menu .nav li, body .container .resume .menu .nav li {
         float: left;
         margin-right: 0;
         width: 25%; }
-        body .container .about .menu .nav li a[href], body .container .about .menu .van li a[href], body .container .portfolio .menu .nav li a[href], body .container .portfolio .menu .van li a[href], body .container .resume .menu .nav li a[href], body .container .resume .menu .van li a[href], body .container .contact .menu .nav li a[href], body .container .contact .menu .van li a[href] {
+        body .container .about .menu .nav li a[href], body .container .portfolio .menu .nav li a[href], body .container .resume .menu .nav li a[href] {
           font-weight: 400;
           padding: 0;
           border: 0; }
-          body .container .about .menu .nav li a[href].this-one, body .container .about .menu .van li a[href].this-one, body .container .portfolio .menu .nav li a[href].this-one, body .container .portfolio .menu .van li a[href].this-one, body .container .resume .menu .nav li a[href].this-one, body .container .resume .menu .van li a[href].this-one, body .container .contact .menu .nav li a[href].this-one, body .container .contact .menu .van li a[href].this-one {
+          body .container .about .menu .nav li a[href].this-one, body .container .portfolio .menu .nav li a[href].this-one, body .container .resume .menu .nav li a[href].this-one {
             background-color: #fff;
-            color: #00A030;
-            text-decoration: line-through;
+            color: #00d33f;
             margin-right: 0; }
   body .container .about .name {
     width: 100%; }
@@ -1216,7 +1215,26 @@ body {
     font-size: 4em; }
   body .container .contact article {
     width: 100%;
-    margin-left: 0; } }
+    margin-left: 0; }
+  body .container .contact .menu {
+    width: 100%; }
+    body .container .contact .menu .van {
+      width: 95%;
+      margin-left: 2.5%;
+      margin-right: 2.5%; }
+      body .container .contact .menu .van li {
+        float: left;
+        margin-right: 0;
+        width: 25%; }
+        body .container .contact .menu .van li a[href] {
+          font-weight: 400;
+          padding: 0;
+          border: 0; }
+          body .container .contact .menu .van li a[href].this-one {
+            background-color: #00A030;
+            color: #fff;
+            text-decoration: underline;
+            margin-right: 0; } }
 
 /* ==========================================================================
    Helper classes
