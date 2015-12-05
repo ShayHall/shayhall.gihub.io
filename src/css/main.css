@@ -389,6 +389,8 @@ body {
     padding-top: 5ex;
     padding-bottom: 5ex;
     margin-top: 1ex; }
+    body .resume .name {
+      font-size: 2.5em; }
     body .resume .nav {
       box-sizing: border-box;
       position: absolute;
@@ -1190,15 +1192,15 @@ body {
       width: 100%; }
   body .container .resume {
     display: block;
-    margin-top: 210ex;
+    margin-top: 211ex;
     height: 210ex; }
     body .container .resume .nav {
-      top: 502ex; }
+      top: 503ex; }
     body .container .resume .name {
       width: 100%;
       margin: 0;
-      margin-top: 0.6ex;
-      padding-left: 10%; }
+      margin-top: 0.5ex;
+      padding-left: 2.5%; }
       body .container .resume .name svg {
         width: 25px;
         height: 25px;
