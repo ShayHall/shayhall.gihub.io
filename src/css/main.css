@@ -964,6 +964,8 @@ body {
 @media (max-width: 55.25em) {
   body .container .headline {
     height: 60ex; }
+    body .container .headline h1 {
+      padding-top: 1.75ex; }
   body .container .nav {
     width: 75%;
     margin-left: 25%; }

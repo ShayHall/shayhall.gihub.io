@@ -94,6 +94,9 @@
     .container {
       .headline {
         height: 60ex;
+        h1 {
+          padding-top: 1.75ex;
+        }
       }
       .nav {
         width: 100% * (3/4);
