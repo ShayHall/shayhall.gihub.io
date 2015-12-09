@@ -7,27 +7,34 @@ body {
         box-sizing: border-box;
         position: absolute;
         top: -6ex;
-        width: 95%;//CHANGED
-        margin-left: 2.5%;//CHANGED
-        margin-right: 2.5%;//CHANGED
+        width: 100%;//CHANGED
+        margin-left: 0;//CHANGED
+        margin-right: 0;//CHANGED
         li {
-          float: left;
+          float: right;
           margin-right: 0;//CHANGED
           width: 100% * (1/4);
+          text-align: center;
           a[href] {
             font-weight: 400;
             padding: 0;//CHANGED
             border: 0;
           }
+          &:first-of-type {
+            padding: 0;
+            margin-right: 1em;
+          }
           &:last-of-type {
             padding: 0;
-            margin-right: 0;
+            margin-left: -1em;
           }
         }
       }
     }//.top-menu
     .headline {
+      height: 60ex;
       h1 {
+        padding-top: 2ex;
         font-size: 4em;
       }
       article {
@@ -39,13 +46,14 @@ body {
       .menu {
         width: 100%;
         .nav {
-          width: 95%;//CHANGED
-          margin-left: 2.5%;//CHANGED
-          margin-right: 2.5%;//CHANGED
+        width: 110%;//CHANGED
+        margin-left: -2.5em;//CHANGED
+        margin-right: 0;//CHANGED
           li {
-            float: left;
+            float: right;
             margin-right: 0;//CHANGED
             width: 100% * (1/4);
+            text-align: center;
             a[href] {
               font-weight: 400;
               padding: 0;//CHANGED
@@ -55,12 +63,21 @@ body {
                 color: lighten($Grinch, 10%);
                 margin-right: 0;
               }
+              &:first-of-type {
+                padding: 0;
+                // margin-right: 1em;
+              }
+              &:last-of-type {
+                padding: 0;
+                // margin-left: -1em;
+              }
             }
           }
         }
       }
     }//.about, .portfolio, .resume
     .about {
+      margin-bottom: 14ex;
       .name {
         width: 100%;
       }
@@ -78,23 +95,24 @@ body {
           padding: 0;
         }
         ul {
-          width: 70%;
+          width: 75%;
           margin-left: 0;
           margin-right: 0;
           padding-bottom: 7ex;
           border-radius: 0;
           border-bottom: 0;
           border-left: 0;
-          border-bottom: 2px solid $Grinch;
-          border-right: 2px solid $Grinch;
+          // border-bottom: 2px solid $Grinch;
+          // border-right: 2px solid $Grinch;
           li {
           margin-left: 5%;
           margin-right: 0;
           }
         }//ul
         img {
-          top: 125ex;
-          left: 53%;
+          width: 6em;
+          top: 26ex;
+          left: 60%;
         }
       }//article
     }//.about
@@ -107,28 +125,58 @@ body {
         text-align: center;
         padding: 0;
       }
-      .port-left, .port-right {
+      .port-left {
         width: 100%;
         margin: 0;
-        height: auto;
+        border: 0;
         .heading {
           width: 100%;
-          img {
-            border: 1px solid #000;
+         img {
+            border: 2px solid $Grinch;
+          }
+          a {
+          line-height: normal;
           }
         }
         .overview {
           width: 100%;
+          margin: 0;
+          p {
+            margin-top: 0;
+            margin-bottom: 0;
+          }
+        }
+      }
+      .port-right {
+        width: 100%;
+        margin: 0;
+        border: 0;
+        .heading {
+          width: 100%;
+         img {
+            border: 2px solid $Grinch;
+          }
+          h4 {
+            line-height: normal;
+          }
+        }
+        .overview {
+          width: 100%;
+          margin: 0;
+          p {
+            margin-top: 0;
+            margin-bottom: 0;
+          }
         }
       }
     }//.portfolio
     .resume {
-      display: block;
-      margin-top: 211ex;
-      height:210ex;
-      .nav {
-        top: 503ex;
-      }
+      // display: block;
+      // margin-top: 211ex;
+      // height:240ex;
+      // .nav {
+      //   top: 15ex;
+      // }
       .name {
         width: 100%;
         margin: 0;
@@ -162,11 +210,11 @@ body {
       .menu {
         width: 100%;
         .van {
-          width: 95%;//CHANGED
-          margin-left: 2.5%;//CHANGED
-          margin-right: 2.5%;//CHANGED
+          width: 100%;//CHANGED
+          margin-left: 0;//CHANGED
+          margin-right: 0;//CHANGED
           li {
-            float: left;
+            float: right;
             margin-right: 0;//CHANGED
             width: 100% * (1/4);
             a[href] {

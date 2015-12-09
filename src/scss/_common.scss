@@ -30,7 +30,7 @@ body {
   .headline {
     box-sizing: border-box;
   	background-color: $Grinch;/*rgba(13, 6, 48, 1)*/
-    height: 90ex;
+    height: 100vh;
     h1 {
       background-color: $Grinch;/*rgba(13, 6, 48, 1)*/
       text-align: center;
@@ -69,14 +69,15 @@ body {
   }
   .about {
     box-sizing: border-box;
-    height: 80ex;
+    position: relative;
+    height: 100vh;
     padding-top: 5ex;
-    margin-bottom: 15ex;
-    margin-top: 1ex;
+    // margin-bottom: 15ex;
+    // margin-top: 1ex;
     .nav {
       box-sizing: border-box;
       position: absolute;
-      top: 92ex;
+      top: 0;
       width: 100% * (1/2);//CHANGED
       margin-left: 100% * (1/2);//CHANGED
       li {
@@ -102,11 +103,11 @@ body {
       }
     }
     article {
-      box-sizing: border-box;
-      margin-top: 4ex;
+      // box-sizing: border-box;
+      padding-top: 0.5ex;
       margin-left: 5%;//CHANGED
       margin-right: 5%;
-      height: 70ex;
+      // height: 70ex;
       width: 90%;
       a {
         text-decoration: none;
@@ -138,7 +139,7 @@ body {
         }
       img {
         position: absolute;
-        top: 130ex;//CHANGED
+        top: 34ex;//CHANGED
         left: 75%;//CHANGED
         width: 12em;//CHANGED
         border-radius: 50%;
@@ -168,17 +169,18 @@ body {
        }
   }//.about
   .portfolio {
-    box-sizing: border-box;
-    height: 105ex;
-    display: block;
+    // box-sizing: border-box;
+    position: relative;
+    // height: 105ex;
+    // display: block;
     padding-top: 5ex;
     padding-bottom: 5ex;
     margin-top: 1ex;
-    margin-bottom: 93ex;
+    // margin-bottom: 93ex;
     .nav {
       box-sizing: border-box;
       position: absolute;
-      top: 187ex;
+      top: 0;
       width: 100% * (1/2);//CHANGED
       margin-left: 100% * (1/2);//CHANGED
       li {
@@ -206,7 +208,7 @@ body {
     .name {
       box-sizing: border-box;
       display: block;
-      width: 60%;
+      width: 75%;
       margin-top: 2ex;
       margin-bottom: 3ex;
       padding-right: 1em;
@@ -223,49 +225,50 @@ body {
       // padding: inherit;//CHANGED
       margin-right: 100%*(1/6);//CHANGED
       margin-left: 100%*(1/6);//CHANGED
+      // margin-top: -0.2ex;
+      // margin-bottom: -0.5ex;
       display: block;
-      float: left;
-      border-right: 2px solid $Grinch;//CHANGED
-      border-left: 2px solid $Grinch;//CHANGED
+      border: 2px solid $Grinch;//CHANGED
+      // border-left: 2px solid $Grinch;//CHANGED
       &:first-of-type {
-        border-top: 2px solid $Grinch;
-        margin-bottom: 2px;
+        // border-top: 2px solid $Grinch;
+        // margin-bottom: 2px;
       }
       &:last-of-type {
         height: 32.5ex;
-        border-bottom: 2px solid $Grinch;
+        // border-bottom: 2px solid $Grinch;
       }
       .heading {
         box-sizing: border-box;
         width: 50%;
         float: left;
         padding: 2ex 2em;
-        background-color: $Grinch;//CHANGED
-        border-right: 2px solid $Grinch;//CHANGED
+        // background-color: $Grinch;//CHANGED
+        // border-right: 2px solid $Grinch;//CHANGED
         img {
           box-sizing: border-box;
           width: 20ex;//CHANGED
           height: 20ex;//CHANGED
           border-radius: 50%;//CHANGED
           margin-left: 0;//CHANGED
-          border: 2px solid #fff;
+          border: 2px solid $Grinch;
         }
         h3 {
           text-align: left;//CHANGED
-          color: #fff;//CHANGED
+          color: $Grinch;//CHANGED
           font-weight: 100;
           font-size: 1.5em;//CHANGED
           line-height: 0;
         }
         h4 {
           text-align: left;//CHANGED
-          color: #fff;//CHANGED
+          color: $Grinch;//CHANGED
           font-weight: 100;
           font-size: 1em;//CHANGED
           line-height: 0;
           a {
             text-decoration: none;
-            color: #fff;//CHANGED
+            color: $Grinch;//CHANGED
             &:hover {
               text-decoration: underline;
             }
@@ -294,13 +297,21 @@ body {
     .port-right {
       box-sizing: border-box;
       width: 100%* (2/3);//CHANGED
+      height: 32.5ex;//CHANGED
       display: block;
-      float: left;
       margin-right: 100%*(1/6);//CHANGED
       margin-left: 100%*(1/6);//CHANGED
-      margin-top: -0.1ex;
-      margin-bottom: -0.1ex;
-      border-left: 2px solid $Grinch;//CHANGED
+      // margin-top: -0.1ex;
+      // margin-bottom: -0.1ex;
+
+      &:first-of-type {
+        // border-top: 2px solid $Grinch;
+        // margin-bottom: 2px;
+      }
+      &:last-of-type {
+        height: 32.5ex;
+        // border-bottom: 2px solid $Grinch;
+      }
       .overview {
       box-sizing: border-box;
       width: 50%;
@@ -324,18 +335,19 @@ body {
         width: 50%;
         float: right;
         padding: 3ex 2em;//CHANGED
-        background-color: $Grinch;//CHANGED
+        border-left: 2px solid $Grinch;
+        height: 32.5ex;
         img {
           box-sizing: border-box;
           width: 20ex;//CHANGED
           height: 20ex;//CHANGED
           border-radius: 50%;//CHANGED
           margin-left: 0;//CHANGED
-          border: 2px solid #fff;
+          border: 2px solid $Grinch;
         }
         h3 {
           text-align: left;//CHANGED
-          color: #fff;//CHANGED
+          color: $Grinch;//CHANGED
           background-color: #fff;
           font-weight: 100;
           font-size: 1.5em;//CHANGED
@@ -343,13 +355,13 @@ body {
         }
         h4 {
           text-align: left;//CHANGED
-          color: #fff;//CHANGED
+          color: $Grinch;//CHANGED
           font-weight: 100;
           font-size: 1em;//CHANGED
           line-height: 0;
           a {
             text-decoration: none;
-            color: #fff;//CHANGED
+            color: $Grinch;//CHANGED
             &:hover {
               text-decoration: underline;
             }
@@ -359,9 +371,10 @@ body {
     }
   }//.portfolio
   .resume {
-    box-sizing: border-box;
+    // box-sizing: border-box;
     width: 100%;
-    height: 150ex;//CHANGED
+    position: relative;
+    // height: 212ex;//CHANGED
     display: block;
     padding-top: 5ex;
     padding-bottom: 5ex;
@@ -372,7 +385,7 @@ body {
     .nav {
       box-sizing: border-box;
       position: absolute;
-      top: 385ex;
+      top: 0;
       width: 100% * (1/2);//CHANGED
       margin-left: 100% * (1/2);//CHANGED
       li {
@@ -430,12 +443,9 @@ body {
       }
       }
     article {
-      display: block;
       width: 100%;//CHANGED
-      // margin-left: auto;//CHANGED
-      margin-top: 20ex;
-      margin-bottom: -14ex;
-      // font-size: 1em;//CHANGED
+      margin-left: auto;//CHANGED
+      font-size: 1em;//CHANGED
       h3 {
         width: 100%;
         text-align: center;
@@ -451,40 +461,47 @@ body {
         }
       }
       .jobs {
-      // width: auto;//CHANGED
-      margin-top: 2ex;//CHANGED
-      padding: 2ex 2em;//CHANGED
-      height: 70ex;//CHANGED
+      // display: block;
+      width: 100%;//CHANGED
+      // margin-top: 1ex;//CHANGED
+      // padding: 1ex 2em;//CHANGED
+      // height: 100%;//CHANGED
       font-size:1em;//CHANGED
         h4 {
+          padding-top: 2ex;
           text-align: center;
           color: $Grinch;
           font-weight: 100;
           // padding: inherit;//CHANGED
           line-height: 0;//CHANGED
+          border-top: 1px solid $Grinch;
         }
         p {
           line-height: 0;//CHANGED
-      font-size:1em;//CHANGED
-        }
-        &:nth-of-type(odd) {
-          border-right: 2px solid $Grinch;//CHANGED
-          border-bottom: 2px solid $Grinch;//CHANGED
-        }
-        &:nth-of-type(2) {
-          border-right: 2px solid $Grinch;//CHANGED
-        }
-        &:nth-of-type(even) {
-          border-top: 2px solid $Grinch;//CHANGED
+          font-size:1em;//CHANGED
         }
       }
+    }
+    .list-o-things {
+      display: block;
+      width: 75%;
+      margin-left: 25%;
+      margin-bottom: 2ex;
     }
   }//.resume
   .contact {
     box-sizing: border-box;
-    position: relative;
+    display: block;
+    clear: both;
   	background-color: $Grinch;/*rgba(13, 6, 48, 1)*/
-    height: 90ex;
+    height: 100vh;
+    // box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    // height: 212ex;//CHANGED
+    // padding-top: 3ex;
+    // padding-bottom: 5ex;
+    margin-top: 0;
     h1 {
       background-color: $Grinch;//CHANGED
       text-align: center;
@@ -522,7 +539,7 @@ body {
       .van {
         box-sizing: border-box;
         position: absolute;
-        top: 1ex;
+        top: 0;
         right: 0;
         // width: auto;//CHANGED
         // margin-left: auto;//CHANGED

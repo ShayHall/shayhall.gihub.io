@@ -103,7 +103,7 @@ body {
     box-sizing: border-box;
     background-color: #00A030;
     /*rgba(13, 6, 48, 1)*/
-    height: 90ex; }
+    height: 100vh; }
     body .headline h1 {
       background-color: #00A030;
       /*rgba(13, 6, 48, 1)*/
@@ -136,14 +136,13 @@ body {
         margin-left: 0; }
   body .about {
     box-sizing: border-box;
-    height: 80ex;
-    padding-top: 5ex;
-    margin-bottom: 15ex;
-    margin-top: 1ex; }
+    position: relative;
+    height: 100vh;
+    padding-top: 5ex; }
     body .about .nav {
       box-sizing: border-box;
       position: absolute;
-      top: 92ex;
+      top: 0;
       width: 50%;
       margin-left: 50%; }
       body .about .nav li {
@@ -165,11 +164,9 @@ body {
             border: 1px solid #00A030;
             border-radius: 3px; }
     body .about article {
-      box-sizing: border-box;
-      margin-top: 4ex;
+      padding-top: 0.5ex;
       margin-left: 5%;
       margin-right: 5%;
-      height: 70ex;
       width: 90%; }
       body .about article a {
         text-decoration: none;
@@ -197,7 +194,7 @@ body {
           font-size: 1.2em; }
       body .about article img {
         position: absolute;
-        top: 130ex;
+        top: 34ex;
         left: 75%;
         width: 12em;
         border-radius: 50%;
@@ -222,17 +219,14 @@ body {
       margin: 0;
       padding-bottom: 10px; }
   body .portfolio {
-    box-sizing: border-box;
-    height: 105ex;
-    display: block;
+    position: relative;
     padding-top: 5ex;
     padding-bottom: 5ex;
-    margin-top: 1ex;
-    margin-bottom: 93ex; }
+    margin-top: 1ex; }
     body .portfolio .nav {
       box-sizing: border-box;
       position: absolute;
-      top: 187ex;
+      top: 0;
       width: 50%;
       margin-left: 50%; }
       body .portfolio .nav li {
@@ -256,7 +250,7 @@ body {
     body .portfolio .name {
       box-sizing: border-box;
       display: block;
-      width: 60%;
+      width: 75%;
       margin-top: 2ex;
       margin-bottom: 3ex;
       padding-right: 1em;
@@ -272,44 +266,36 @@ body {
       margin-right: 16.66667%;
       margin-left: 16.66667%;
       display: block;
-      float: left;
-      border-right: 2px solid #00A030;
-      border-left: 2px solid #00A030; }
-      body .portfolio .port-left:first-of-type {
-        border-top: 2px solid #00A030;
-        margin-bottom: 2px; }
+      border: 2px solid #00A030; }
       body .portfolio .port-left:last-of-type {
-        height: 32.5ex;
-        border-bottom: 2px solid #00A030; }
+        height: 32.5ex; }
       body .portfolio .port-left .heading {
         box-sizing: border-box;
         width: 50%;
         float: left;
-        padding: 2ex 2em;
-        background-color: #00A030;
-        border-right: 2px solid #00A030; }
+        padding: 2ex 2em; }
         body .portfolio .port-left .heading img {
           box-sizing: border-box;
           width: 20ex;
           height: 20ex;
           border-radius: 50%;
           margin-left: 0;
-          border: 2px solid #fff; }
+          border: 2px solid #00A030; }
         body .portfolio .port-left .heading h3 {
           text-align: left;
-          color: #fff;
+          color: #00A030;
           font-weight: 100;
           font-size: 1.5em;
           line-height: 0; }
         body .portfolio .port-left .heading h4 {
           text-align: left;
-          color: #fff;
+          color: #00A030;
           font-weight: 100;
           font-size: 1em;
           line-height: 0; }
           body .portfolio .port-left .heading h4 a {
             text-decoration: none;
-            color: #fff; }
+            color: #00A030; }
             body .portfolio .port-left .heading h4 a:hover {
               text-decoration: underline; }
       body .portfolio .port-left .overview {
@@ -329,13 +315,12 @@ body {
     body .portfolio .port-right {
       box-sizing: border-box;
       width: 66.66667%;
+      height: 32.5ex;
       display: block;
-      float: left;
       margin-right: 16.66667%;
-      margin-left: 16.66667%;
-      margin-top: -0.1ex;
-      margin-bottom: -0.1ex;
-      border-left: 2px solid #00A030; }
+      margin-left: 16.66667%; }
+      body .portfolio .port-right:last-of-type {
+        height: 32.5ex; }
       body .portfolio .port-right .overview {
         box-sizing: border-box;
         width: 50%;
@@ -355,36 +340,36 @@ body {
         width: 50%;
         float: right;
         padding: 3ex 2em;
-        background-color: #00A030; }
+        border-left: 2px solid #00A030;
+        height: 32.5ex; }
         body .portfolio .port-right .heading img {
           box-sizing: border-box;
           width: 20ex;
           height: 20ex;
           border-radius: 50%;
           margin-left: 0;
-          border: 2px solid #fff; }
+          border: 2px solid #00A030; }
         body .portfolio .port-right .heading h3 {
           text-align: left;
-          color: #fff;
+          color: #00A030;
           background-color: #fff;
           font-weight: 100;
           font-size: 1.5em;
           line-height: 0; }
         body .portfolio .port-right .heading h4 {
           text-align: left;
-          color: #fff;
+          color: #00A030;
           font-weight: 100;
           font-size: 1em;
           line-height: 0; }
           body .portfolio .port-right .heading h4 a {
             text-decoration: none;
-            color: #fff; }
+            color: #00A030; }
             body .portfolio .port-right .heading h4 a:hover {
               text-decoration: underline; }
   body .resume {
-    box-sizing: border-box;
     width: 100%;
-    height: 150ex;
+    position: relative;
     display: block;
     padding-top: 5ex;
     padding-bottom: 5ex;
@@ -394,7 +379,7 @@ body {
     body .resume .nav {
       box-sizing: border-box;
       position: absolute;
-      top: 385ex;
+      top: 0;
       width: 50%;
       margin-left: 50%; }
       body .resume .nav li {
@@ -443,10 +428,9 @@ body {
       body .resume .name .email {
         margin-left: 1em; }
     body .resume article {
-      display: block;
       width: 100%;
-      margin-top: 20ex;
-      margin-bottom: -14ex; }
+      margin-left: auto;
+      font-size: 1em; }
       body .resume article h3 {
         width: 100%;
         text-align: center;
@@ -459,31 +443,33 @@ body {
         body .resume article p span {
           color: #00A030; }
       body .resume article .jobs {
-        margin-top: 2ex;
-        padding: 2ex 2em;
-        height: 70ex;
+        width: 100%;
         font-size: 1em; }
         body .resume article .jobs h4 {
+          padding-top: 2ex;
           text-align: center;
           color: #00A030;
           font-weight: 100;
-          line-height: 0; }
+          line-height: 0;
+          border-top: 1px solid #00A030; }
         body .resume article .jobs p {
           line-height: 0;
           font-size: 1em; }
-        body .resume article .jobs:nth-of-type(odd) {
-          border-right: 2px solid #00A030;
-          border-bottom: 2px solid #00A030; }
-        body .resume article .jobs:nth-of-type(2) {
-          border-right: 2px solid #00A030; }
-        body .resume article .jobs:nth-of-type(even) {
-          border-top: 2px solid #00A030; }
+    body .resume .list-o-things {
+      display: block;
+      width: 75%;
+      margin-left: 25%;
+      margin-bottom: 2ex; }
   body .contact {
     box-sizing: border-box;
-    position: relative;
+    display: block;
+    clear: both;
     background-color: #00A030;
     /*rgba(13, 6, 48, 1)*/
-    height: 90ex; }
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin-top: 0; }
     body .contact h1 {
       background-color: #00A030;
       text-align: center;
@@ -516,7 +502,7 @@ body {
       body .contact article .van {
         box-sizing: border-box;
         position: absolute;
-        top: 1ex;
+        top: 0;
         right: 0; }
         body .contact article .van li {
           display: block;
@@ -948,7 +934,7 @@ body {
     padding-bottom: 3ex;
     padding-left: 3em; }
   body .container .about article img {
-    top: 129ex;
+    top: 38ex;
     width: 10em; }
   body .container .portfolio .nav li {
     margin-right: 1em; }
@@ -963,61 +949,72 @@ body {
     body .container .resume .nav li a[href] {
       padding: 0.25ex 0.25em; }
   body .container .resume article .jobs {
-    padding: 1ex 1.5em;
+    padding: 1ex 10%;
     font-size: 0.9em; }
     body .container .resume article .jobs p {
       font-size: 0.9em; }
+  body .container .resume .list-o-things {
+    width: 100%;
+    margin-left: 0; }
   body .container .contact article .van li {
     margin-right: 1em; }
     body .container .contact article .van li a[href] {
       padding: 0.25ex 0.25em; } }
 
 @media (max-width: 55.25em) {
+  body .container .headline {
+    height: 60ex; }
   body .container .nav {
     width: 75%;
     margin-left: 25%; }
-  body .container .about .nav {
-    width: 75%;
-    margin-left: 25%; }
-  body .container .about article {
-    margin-left: 0; }
-    body .container .about article img {
-      top: 122ex;
-      width: 8em;
-      left: 55%; }
-    body .container .about article a {
-      padding: 0; }
-    body .container .about article ul {
-      font-size: 1em;
-      margin-left: 20%;
-      padding-top: 1ex;
-      padding-bottom: 1ex;
-      padding-left: 1em; }
-      body .container .about article ul li {
-        font-size: 1em; }
+  body .container .about {
+    margin-bottom: 10ex; }
+    body .container .about .nav {
+      width: 75%;
+      margin-left: 25%; }
+    body .container .about article {
+      margin-left: 0; }
+      body .container .about article img {
+        top: 31ex;
+        width: 8em;
+        left: 55%; }
+      body .container .about article a {
+        padding: 0; }
+      body .container .about article ul {
+        font-size: 1em;
+        margin-left: 20%;
+        padding-top: 1ex;
+        padding-bottom: 1ex;
+        padding-left: 1em; }
+        body .container .about article ul li {
+          font-size: 1em; }
   body .container .portfolio .nav {
     width: 75%;
     margin-left: 25%; }
   body .container .portfolio .port-left {
+    box-sizing: inherit;
     width: 95%;
-    height: auto;
-    padding-top: 0.5ex;
-    padding-bottom: 4ex;
     margin-right: 2.5%;
     margin-left: 2.5%;
-    border: 2px solid #fff;
-    border-top: 2px solid #00A030; }
+    padding-top: 3ex;
+    border: 0;
+    border-bottom: 2px solid #00A030; }
     body .container .portfolio .port-left .overview {
-      padding: 0 1em; }
+      width: 66.66667%;
+      padding: 1ex 1em 0;
+      border: 0; }
       body .container .portfolio .port-left .overview p {
         font-size: 0.8em; }
     body .container .portfolio .port-left .heading {
+      width: 33.33333%;
+      padding: 1ex 0 0;
       background-color: #fff;
       border: 0; }
       body .container .portfolio .port-left .heading img {
-        width: 70%;
-        height: 70%;
-        margin-left: 15%;
+        width: 50%;
+        height: auto;
+        margin-left: 25%;
+        margin-top: 2ex;
         border-radius: 0; }
       body .container .portfolio .port-left .heading h3 {
         text-align: center;
@@ -1030,22 +1027,29 @@ body {
         body .container .portfolio .port-left .heading h4 a {
           color: #00A030; }
   body .container .portfolio .port-right {
+    box-sizing: inherit;
     width: 95%;
     margin-right: 2.5%;
     margin-left: 2.5%;
-    border: 2px solid #fff;
-    border-top: 2px solid #00A030; }
+    padding-top: 3ex;
+    border: 0;
+    border-bottom: 2px solid #00A030; }
     body .container .portfolio .port-right .overview {
-      padding: 0 1em; }
+      width: 66.66667%;
+      padding: 1ex 1em 0;
+      border: 0; }
       body .container .portfolio .port-right .overview p {
         font-size: 0.8em; }
     body .container .portfolio .port-right .heading {
-      padding: 2ex 2em;
-      background-color: #fff; }
+      width: 33.33333%;
+      padding: 1ex 0 0;
+      background-color: #fff;
+      border: 0; }
       body .container .portfolio .port-right .heading img {
-        width: 70%;
-        height: 70%;
-        margin-left: 15%;
+        width: 50%;
+        height: auto;
+        margin-left: 25%;
+        margin-top: 2ex;
         border-radius: 0; }
       body .container .portfolio .port-right .heading h3 {
         text-align: center;
@@ -1058,7 +1062,7 @@ body {
         body .container .portfolio .port-right .heading h4 a {
           color: #00A030; }
   body .container .resume {
-    height: 197ex; }
+    clear: both; }
     body .container .resume .nav {
       width: 75%;
       margin-left: 25%; }
@@ -1069,7 +1073,10 @@ body {
     body .container .resume article {
       width: 90%;
       margin-left: 5%;
+      margin-bottom: 5ex;
       font-size: 0.9em; }
+      body .container .resume article:first-of-type {
+        padding-top: 20ex; }
       body .container .resume article .jobs {
         width: 100%;
         margin-top: 0;
@@ -1081,6 +1088,7 @@ body {
           line-height: 1ex;
           padding-top: 3ex;
           padding-bottom: 1ex;
+          border-top: 0;
           border-bottom: 1px solid #00A030; }
         body .container .resume article .jobs p {
           line-height: 1ex; }
@@ -1109,35 +1117,43 @@ body {
       box-sizing: border-box;
       position: absolute;
       top: -6ex;
-      width: 95%;
-      margin-left: 2.5%;
-      margin-right: 2.5%; }
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0; }
       body .container .top-menu .nav li {
-        float: left;
+        float: right;
         margin-right: 0;
-        width: 25%; }
+        width: 25%;
+        text-align: center; }
         body .container .top-menu .nav li a[href] {
           font-weight: 400;
           padding: 0;
           border: 0; }
+        body .container .top-menu .nav li:first-of-type {
+          padding: 0;
+          margin-right: 1em; }
         body .container .top-menu .nav li:last-of-type {
           padding: 0;
-          margin-right: 0; }
-  body .container .headline h1 {
-    font-size: 4em; }
-  body .container .headline article {
-    width: 100%;
-    margin-left: 0; }
+          margin-left: -1em; }
+  body .container .headline {
+    height: 60ex; }
+    body .container .headline h1 {
+      padding-top: 2ex;
+      font-size: 4em; }
+    body .container .headline article {
+      width: 100%;
+      margin-left: 0; }
   body .container .about .menu, body .container .portfolio .menu, body .container .resume .menu {
     width: 100%; }
     body .container .about .menu .nav, body .container .portfolio .menu .nav, body .container .resume .menu .nav {
-      width: 95%;
-      margin-left: 2.5%;
-      margin-right: 2.5%; }
+      width: 110%;
+      margin-left: -2.5em;
+      margin-right: 0; }
       body .container .about .menu .nav li, body .container .portfolio .menu .nav li, body .container .resume .menu .nav li {
-        float: left;
+        float: right;
         margin-right: 0;
-        width: 25%; }
+        width: 25%;
+        text-align: center; }
         body .container .about .menu .nav li a[href], body .container .portfolio .menu .nav li a[href], body .container .resume .menu .nav li a[href] {
           font-weight: 400;
           padding: 0;
@@ -1146,73 +1162,94 @@ body {
             background-color: #fff;
             color: #00d33f;
             margin-right: 0; }
-  body .container .about .name {
-    width: 100%; }
-  body .container .about h2 {
-    width: 100%;
-    text-align: left; }
-  body .container .about .email {
-    margin-left: 0.5em; }
-  body .container .about article {
-    width: 100%;
-    margin: 0; }
-    body .container .about article a {
-      padding: 0; }
-    body .container .about article ul {
-      width: 70%;
-      margin-left: 0;
-      margin-right: 0;
-      padding-bottom: 7ex;
-      border-radius: 0;
-      border-bottom: 0;
-      border-left: 0;
-      border-bottom: 2px solid #00A030;
-      border-right: 2px solid #00A030; }
-      body .container .about article ul li {
-        margin-left: 5%;
-        margin-right: 0; }
-    body .container .about article img {
-      top: 125ex;
-      left: 53%; }
+          body .container .about .menu .nav li a[href]:first-of-type, body .container .portfolio .menu .nav li a[href]:first-of-type, body .container .resume .menu .nav li a[href]:first-of-type {
+            padding: 0; }
+          body .container .about .menu .nav li a[href]:last-of-type, body .container .portfolio .menu .nav li a[href]:last-of-type, body .container .resume .menu .nav li a[href]:last-of-type {
+            padding: 0; }
+  body .container .about {
+    margin-bottom: 14ex; }
+    body .container .about .name {
+      width: 100%; }
+    body .container .about h2 {
+      width: 100%;
+      text-align: left; }
+    body .container .about .email {
+      margin-left: 0.5em; }
+    body .container .about article {
+      width: 100%;
+      margin: 0; }
+      body .container .about article a {
+        padding: 0; }
+      body .container .about article ul {
+        width: 75%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 7ex;
+        border-radius: 0;
+        border-bottom: 0;
+        border-left: 0; }
+        body .container .about article ul li {
+          margin-left: 5%;
+          margin-right: 0; }
+      body .container .about article img {
+        width: 6em;
+        top: 26ex;
+        left: 60%; }
   body .container .portfolio .name {
     width: 100%; }
   body .container .portfolio h2 {
     width: 100%;
     text-align: center;
     padding: 0; }
-  body .container .portfolio .port-left, body .container .portfolio .port-right {
+  body .container .portfolio .port-left {
     width: 100%;
     margin: 0;
-    height: auto; }
-    body .container .portfolio .port-left .heading, body .container .portfolio .port-right .heading {
+    border: 0; }
+    body .container .portfolio .port-left .heading {
       width: 100%; }
-      body .container .portfolio .port-left .heading img, body .container .portfolio .port-right .heading img {
-        border: 1px solid #000; }
-    body .container .portfolio .port-left .overview, body .container .portfolio .port-right .overview {
-      width: 100%; }
-  body .container .resume {
-    display: block;
-    margin-top: 211ex;
-    height: 210ex; }
-    body .container .resume .nav {
-      top: 503ex; }
-    body .container .resume .name {
+      body .container .portfolio .port-left .heading img {
+        border: 2px solid #00A030; }
+      body .container .portfolio .port-left .heading a {
+        line-height: normal; }
+    body .container .portfolio .port-left .overview {
       width: 100%;
-      margin: 0;
-      margin-top: 0.5ex;
-      padding-left: 2.5%; }
-      body .container .resume .name svg {
-        width: 25px;
-        height: 25px;
-        margin-left: 0;
-        padding-bottom: 0; }
-      body .container .resume .name img {
-        width: 25px;
-        height: 25px;
-        margin-left: 0;
-        padding-bottom: 0; }
-      body .container .resume .name .email {
-        margin-left: 0; }
+      margin: 0; }
+      body .container .portfolio .port-left .overview p {
+        margin-top: 0;
+        margin-bottom: 0; }
+  body .container .portfolio .port-right {
+    width: 100%;
+    margin: 0;
+    border: 0; }
+    body .container .portfolio .port-right .heading {
+      width: 100%; }
+      body .container .portfolio .port-right .heading img {
+        border: 2px solid #00A030; }
+      body .container .portfolio .port-right .heading h4 {
+        line-height: normal; }
+    body .container .portfolio .port-right .overview {
+      width: 100%;
+      margin: 0; }
+      body .container .portfolio .port-right .overview p {
+        margin-top: 0;
+        margin-bottom: 0; }
+  body .container .resume .name {
+    width: 100%;
+    margin: 0;
+    margin-top: 0.5ex;
+    padding-left: 2.5%; }
+    body .container .resume .name svg {
+      width: 25px;
+      height: 25px;
+      margin-left: 0;
+      padding-bottom: 0; }
+    body .container .resume .name img {
+      width: 25px;
+      height: 25px;
+      margin-left: 0;
+      padding-bottom: 0; }
+    body .container .resume .name .email {
+      margin-left: 0; }
   body .container .contact h1 {
     font-size: 4em; }
   body .container .contact article {
@@ -1221,11 +1258,11 @@ body {
   body .container .contact .menu {
     width: 100%; }
     body .container .contact .menu .van {
-      width: 95%;
-      margin-left: 2.5%;
-      margin-right: 2.5%; }
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0; }
       body .container .contact .menu .van li {
-        float: left;
+        float: right;
         margin-right: 0;
         width: 25%; }
         body .container .contact .menu .van li a[href] {
