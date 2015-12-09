@@ -921,6 +921,10 @@ body {
   float: left; }
 
 @media (max-width: 68.45em) {
+  body .container .headline {
+    height: 60ex; }
+    body .container .headline h1 {
+      padding-top: 1.75ex; }
   body .container .nav li {
     margin-right: 1em; }
     body .container .nav li a[href] {

@@ -1,6 +1,12 @@
 @media (max-width: 68.45em) {
   body {
     .container {
+      .headline {
+        height: 60ex;
+        h1 {
+          padding-top: 1.75ex;
+        }
+      }
       .nav {
         li {
           margin-right: 1em;
