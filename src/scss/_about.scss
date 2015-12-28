@@ -1,0 +1,103 @@
+body {
+.about {
+    box-sizing: border-box;
+    position: relative;
+    height: 100vh;
+    padding-top: 5ex;
+    // margin-bottom: 15ex;
+    // margin-top: 1ex;
+    .nav {
+      box-sizing: border-box;
+      position: absolute;
+      top: 0;
+      width: 100% * (1/2);//CHANGED
+      margin-left: 100% * (1/2);//CHANGED
+      li {
+        display: block;
+        float: right;
+        margin-right: 2em;//CHANGED
+        list-style: none;
+        padding-left: 0;
+        a[href] {
+          text-decoration: none;
+          color: $Grinch;
+          font-weight: 100;
+          padding: 0.5ex 0.5em;//CHANGED
+          border: 1px solid $Grinch;
+          border-radius: 3px;
+          &.this-one{
+            background-color: $Grinch;
+            color: #fff;
+            border: 1px solid $Grinch;
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+    article {
+      // box-sizing: border-box;
+      padding-top: 0.5ex;
+      margin-left: 5%;//CHANGED
+      margin-right: 5%;
+      // height: 70ex;
+      width: 90%;
+      a {
+        text-decoration: none;
+        color: $Grinch;
+        padding: 2px;
+        border-radius: 3px;
+        &:hover {
+          text-decoration: underline;
+       }
+      }
+        ul {
+          width: 50%;
+          color:#000;
+          font-size: 1.2em;//CHANGED
+          font-weight: 100;
+          text-align: left;
+          margin-top: 10ex;
+          margin-left: 25%;//CHANGED
+          padding-top: 5ex;//CHANGED
+          padding-bottom: 5ex;//CHANGED
+          padding-left: 5em;//CHANGED
+          list-style: none;
+          border-left: 2px solid $Grinch;
+          border-bottom: 2px solid $Grinch;
+          border-radius: 20px;
+          li {
+            font-size: 1.2em;//CHANGED
+          }
+        }
+      img {
+        position: absolute;
+        top: 34ex;//CHANGED
+        left: 75%;//CHANGED
+        width: 12em;//CHANGED
+        border-radius: 50%;
+        border: 2px solid $Grinch;
+      }
+    }
+      .name {
+        box-sizing: border-box;
+        width: 85%;
+        float: right;
+        margin-right: 0;
+        margin-top: 2ex;
+        margin-bottom: 1ex;
+        padding-left: 1em;
+        text-align: left;
+        color: #fff;
+        font-weight: 300;
+        font-size: 3em;
+        background-color: $Grinch;
+      }
+        .email {
+          display: inline;
+          width: 35px;
+          height: 35px;
+          margin: 0;
+          padding-bottom: 10px;
+       }
+  }//.about
+}
