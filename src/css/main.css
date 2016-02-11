@@ -477,7 +477,8 @@ body {
 body .about {
   box-sizing: border-box;
   position: relative;
-  height: 100vh; }
+  height: 100vh;
+  margin-top: 7ex; }
   body .about .name {
     width: 87.5%;
     margin-left: 12.5%;
@@ -487,7 +488,6 @@ body .about {
     font-weight: 300;
     font-size: 3em;
     background-color: #00A030;
-    line-height: 0;
     margin-bottom: 0; }
     body .about .name .email {
       display: inline;

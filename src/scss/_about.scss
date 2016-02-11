@@ -3,6 +3,7 @@ body {
     box-sizing: border-box;
     position: relative;
     height: 100vh;
+    margin-top: 7ex;
     .name {
       width: 100%*(7/8);
       margin-left: 100%*(1/8);
@@ -12,7 +13,7 @@ body {
       font-weight: 300;
       font-size: 3em;
       background-color: $Grinch;
-      line-height: 0;
+      // line-height: 0;
       margin-bottom: 0;
      .email {
         display: inline;
