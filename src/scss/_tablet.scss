@@ -2,7 +2,6 @@
   body {
     .container {
       .headline {
-        height: 60ex;
         h1 {
           padding-top: 1.75ex;
         }
@@ -16,35 +15,23 @@
         }
       }
     .about {
-      .nav {
-        li {
-          margin-right: 1em;
-          a[href] {
-            padding: 0.25ex 0.25em;
-          }
-        }
-      }
+      .name {
+        width: inherit;
+}
       article {
-          ul {
-            padding-top: 3ex;
-            padding-bottom: 3ex;
-            padding-left: 3em;
-          }
+          float: right;
+          margin-right: 15%;
+        ul {
+          width: 100%;
+          padding-left: 1em;
+        }
         img {
-          top: 38ex;
           width: 10em;
+          left: 45em;
         }
       }
     }//.about
     .portfolio {
-      .nav {
-        li {
-          margin-right: 1em;
-          a {
-            padding: 0.25ex 0.25em;
-          }
-        }
-      }
       .port-left {
         .overview {
           padding: 1ex 2.5em;
@@ -57,14 +44,6 @@
       }
     }//.portfolio
     .resume {
-      .nav {
-        li {
-          margin-right: 1em;
-          a[href] {
-            padding: 0.25ex 0.25em;
-          }
-        }
-      }
         article {
           .jobs {
             padding: 1ex 10%;
@@ -79,18 +58,6 @@
         margin-left: 0;
       }
     }//.resume
-      .contact {
-        article {
-          .van {
-            li {
-              margin-right: 1em;
-              a[href] {
-                padding: 0.25ex 0.25em;
-              }
-            }
-          }
-        }
-      }//.contact
     }
   }//body
 }//media query max-width 68.45
@@ -109,17 +76,12 @@
         margin-left: 100% * (1/4);
       }
     .about {
-      margin-bottom: 10ex;
-     .nav {
-        width: 100% * (3/4);
-        margin-left: 100% * (1/4);
-      }
       article {
         margin-left: 0;
         img {
-          top: 31ex;
+          top: 28ex;
           width: 8em;
-          left: 55%;
+          left: 75%;
         }
         a {
           padding: 0;
@@ -137,10 +99,6 @@
       }
     }//.about
     .portfolio {
-      .nav {
-        width: 100% * (3/4);
-        margin-left: 100% * (1/4);
-      }
       .port-left {
         box-sizing: inherit;
         width: 95%;
@@ -230,11 +188,6 @@
     }//.portfolio
     .resume {
       clear: both;
-      // height: 230ex;
-      .nav {
-        width: 100% * (3/4);
-        margin-left: 100% * (1/4);
-      }
         .name {
           padding-left: 0.5em;
           .email {
@@ -293,10 +246,6 @@
         img {
           width: 35px;
           height: 35px;
-        }
-        .van {
-          width: 100% * (3/4);
-          margin-left: 100% * (1/4);
         }
       }
     }//.contact

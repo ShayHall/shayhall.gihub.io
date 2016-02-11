@@ -5,74 +5,29 @@ body {
     padding-top: 5ex;
     padding-bottom: 5ex;
     margin-top: 1ex;
-    .nav {
-      box-sizing: border-box;
-      position: absolute;
-      top: 0;
-      width: 100% * (1/2);//CHANGED
-      margin-left: 100% * (1/2);//CHANGED
-      li {
-        display: block;
-        float: right;
-        margin-right: 2em;//CHANGED
-        list-style: none;
-        padding-left: 0;
-        a {
-          text-decoration: none;
-          color: $Grinch;
-          font-weight: 100;
-          padding: 0.5ex 0.5em;//CHANGED
-          border: 1px solid $Grinch;
-          border-radius: 3px;
-          &.this-one {
-            background-color: $Grinch;
-            color: #fff;
-            border: 1px solid $Grinch;
-            border-radius: 3px;
-          }
-        }
-      }
-    }//.nav
     .name {
       box-sizing: border-box;
       display: block;
       width: 75%;
-      margin-top: 2ex;
-      margin-bottom: 3ex;
-      padding-right: 1em;
+      margin: 0 100%*(1/8) 3ex 0;
+      padding: 1.75ex 1em;
       text-align: right;
       color: #fff;
       font-weight: 300;
       font-size: 3em;
       background-color: $Grinch;
+      line-height: 0;
     }
     .port-left {
       box-sizing: border-box;
       width: 100%* (2/3);//CHANGED
-      // padding: inherit;//CHANGED
       margin-right: 100%*(1/6);//CHANGED
       margin-left: 100%*(1/6);//CHANGED
-      // margin-top: -0.2ex;
-      // margin-bottom: -0.5ex;
-      // display: block;
       border: 2px solid $Grinch;//CHANGED
-      // border-left: 2px solid $Grinch;//CHANGED
-      // &:first-of-type {
-      //   // border-top: 2px solid $Grinch;
-      //   // margin-bottom: 2px;
-      //   height: 44ex;
-      // }
-      // &:last-of-type {
-      //   height: 34.5ex;
-      //   // border-bottom: 2px solid $Grinch;
-      // }
       .heading {
         box-sizing: border-box;
-        width: 50%;
         float: left;
         padding: 2ex 2em;
-        // background-color: $Grinch;//CHANGED
-        // border-right: 2px solid $Grinch;//CHANGED
         img {
           box-sizing: border-box;
           width: 20ex;//CHANGED
@@ -134,19 +89,8 @@ body {
     .port-right {
       box-sizing: border-box;
       width: 100%* (2/3);//CHANGED
-      // display: block;
       margin-right: 100%*(1/6);//CHANGED
       margin-left: 100%*(1/6);//CHANGED
-      // margin-top: -0.1ex;
-      // margin-bottom: -0.1ex;
-      // &:first-of-type {
-      //   // border-top: 2px solid $Grinch;
-      //   // margin-bottom: 2px;
-      // }
-      // &:last-of-type {
-      //   height: 34.5ex;
-      //   // border-bottom: 2px solid $Grinch;
-      // }
       .overview {
       box-sizing: border-box;
       width: 50%;

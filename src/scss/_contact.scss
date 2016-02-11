@@ -5,12 +5,8 @@ body {
   clear: both;
   background-color: $Grinch;/*rgba(13, 6, 48, 1)*/
   height: 100vh;
-  // box-sizing: border-box;
   width: 100%;
   position: relative;
-  // height: 212ex;//CHANGED
-  // padding-top: 3ex;
-  // padding-bottom: 5ex;
   margin-top: 0;
   h1 {
     background-color: $Grinch;//CHANGED
@@ -45,35 +41,6 @@ body {
     }
     .email {
       margin-left: 0;
-    }
-    .van {
-      box-sizing: border-box;
-      position: absolute;
-      top: 0;
-      right: 0;
-      // width: auto;//CHANGED
-      // margin-left: auto;//CHANGED
-      li {
-        display: block;
-        float: right;
-        margin-right: 2em;//CHANGED
-        list-style: none;
-        padding-left: 0;
-        a[href] {
-          text-decoration: none;
-          color: #fff;/*rgba(13, 6, 48, 1)*/
-          font-weight: 100;
-          padding: 0.5ex 0.5em;//CHANGED
-          border: 1px solid #fff;
-          border-radius: 3px;
-          &.this-one{
-            background-color: #fff;
-            color: $Grinch;
-            border: 1px solid #fff;
-            border-radius: 3px;
-          }
-        }
-      }
     }
   }
 }//.contact

@@ -94,9 +94,25 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+$Grinch: #00A030;
+
+// for 3, 4, 6,  8 and 12
+@each $Y in 3, 4, 6, 8, 12 {
+  @for $X from 1 through $Y {
+    .col-#{$X}-#{$Y} {
+      width: 100%*($X/$Y);
+      float: left;
+      box-sizing: border-box;
+    }
+    .pad-#{$X}-#{$Y} {
+      margin-left: 100%*($X/$Y);
+      float: left;
+      box-sizing: border-box;
+    }
+  } // END @for 1...$Y
+} // END @each 6,8,12,16,18
 
 @import 'common';
-@import 'grid';
 @import 'header';
 @import 'about';
 @import 'portfolio';
