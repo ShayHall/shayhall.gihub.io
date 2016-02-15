@@ -654,6 +654,11 @@ body .resume {
   padding-top: 5ex;
   padding-bottom: 5ex;
   margin-top: 1ex; }
+  body .resume a[href] {
+    text-decoration: none;
+    color: #00A030; }
+    body .resume a[href]:hover {
+      text-decoration: underline; }
   body .resume .name {
     font-size: 2.5em; }
   body .resume .name {

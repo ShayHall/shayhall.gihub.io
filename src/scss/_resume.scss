@@ -8,6 +8,13 @@ body {
   padding-top: 5ex;
   padding-bottom: 5ex;
   margin-top: 1ex;
+  a[href] {
+    text-decoration: none;
+    color: $Grinch;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   .name {
     font-size: 2.5em;
   }
