@@ -4,10 +4,11 @@ body {
     position: relative;
     height: 100vh;
     margin-top: 7ex;
+    padding-top: 0.5ex;
     .name {
       width: 100%*(7/8);
       margin-left: 100%*(1/8);
-      padding: 1ex 1em .75ex;
+      padding: 0.5ex 1em;
       text-align: left;
       color: #fff;
       font-weight: 300;

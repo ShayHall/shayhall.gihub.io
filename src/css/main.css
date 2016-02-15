@@ -481,11 +481,12 @@ body .about {
   box-sizing: border-box;
   position: relative;
   height: 100vh;
-  margin-top: 7ex; }
+  margin-top: 7ex;
+  padding-top: 0.5ex; }
   body .about .name {
     width: 87.5%;
     margin-left: 12.5%;
-    padding: 1ex 1em .75ex;
+    padding: 0.5ex 1em;
     text-align: left;
     color: #fff;
     font-weight: 300;
@@ -989,29 +990,31 @@ body .contact {
             padding: 0; }
           body .container .about .menu .nav li a[href]:last-of-type, body .container .portfolio .menu .nav li a[href]:last-of-type, body .container .resume .menu .nav li a[href]:last-of-type {
             padding: 0; }
-  body .container .about .name {
-    width: inherit;
-    margin: 0; }
-    body .container .about .name .email {
-      margin-left: 0.5em; }
-  body .container .about article {
-    width: 100%;
-    margin: 0;
-    border: 0;
-    padding: 0; }
-    body .container .about article a {
+  body .container .about {
+    padding-top: 0; }
+    body .container .about .name {
+      width: inherit;
+      margin: 0; }
+      body .container .about .name .email {
+        margin-left: 0.5em; }
+    body .container .about article {
+      width: 100%;
+      margin: 0;
+      border: 0;
       padding: 0; }
-    body .container .about article ul {
-      width: 75%;
-      margin-left: 0;
-      margin-right: 0; }
-      body .container .about article ul li {
-        margin-left: 5%;
+      body .container .about article a {
+        padding: 0; }
+      body .container .about article ul {
+        width: 75%;
+        margin-left: 0;
         margin-right: 0; }
-    body .container .about article img {
-      width: 40vw;
-      top: 35ex;
-      left: 30vw; }
+        body .container .about article ul li {
+          margin-left: 5%;
+          margin-right: 0; }
+      body .container .about article img {
+        width: 40vw;
+        top: 35ex;
+        left: 30vw; }
   body .container .portfolio .name {
     width: 100%;
     height: inherit;
