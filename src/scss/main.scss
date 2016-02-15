@@ -95,7 +95,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 $Grinch: #00A030;
-
+a[href] {
+text-decoration: none;
+}
 // for 3, 4, 6,  8 and 12
 @each $Y in 3, 4, 6, 8, 12 {
   @for $X from 1 through $Y {
