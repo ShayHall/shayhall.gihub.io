@@ -61,8 +61,8 @@ body {
       .overview {
       box-sizing: border-box;
       width: 50%;
-      float: left;
-      padding: 2.5ex 2.5em;//CHANGED
+      float: right;
+      padding: 2ex 2.5em;//CHANGED
         p {
           color: #000;
           font-size: 0.9em;//CHANGED
@@ -115,7 +115,6 @@ body {
         float: right;
         padding: 3ex 2em;//CHANGED
         border-left: 2px solid $Grinch;
-        height: 34.5ex;
         img {
           box-sizing: border-box;
           width: 20ex;//CHANGED

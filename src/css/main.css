@@ -581,8 +581,8 @@ body .portfolio {
     body .portfolio .port-left .overview {
       box-sizing: border-box;
       width: 50%;
-      float: left;
-      padding: 2.5ex 2.5em; }
+      float: right;
+      padding: 2ex 2.5em; }
       body .portfolio .port-left .overview p {
         color: #000;
         font-size: 0.9em; }
@@ -623,8 +623,7 @@ body .portfolio {
       width: 50%;
       float: right;
       padding: 3ex 2em;
-      border-left: 2px solid #00A030;
-      height: 34.5ex; }
+      border-left: 2px solid #00A030; }
       body .portfolio .port-right .heading img {
         box-sizing: border-box;
         width: 20ex;
