@@ -473,9 +473,9 @@ body {
         text-decoration: none;
         color: #00A030;
         font-weight: 100;
-        padding: 0.5ex 0.5em;
-        border: 1px solid #00A030;
-        border-radius: 3px; }
+        padding: 1ex 0.5em; }
+        #header .nav li a[href]:hover {
+          border-top: 2px solid #00A030; }
 
 body .about {
   box-sizing: border-box;
